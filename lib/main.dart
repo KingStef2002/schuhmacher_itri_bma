@@ -5,7 +5,7 @@ import 'package:schuhmacher_itri_bma/app.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeRight])
+  SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft])
       .then((_) {
     runApp(const App());
   });
