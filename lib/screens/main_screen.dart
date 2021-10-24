@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:schuhmacher_itri_bma/widgets/connector_line.dart';
 import 'package:schuhmacher_itri_bma/widgets/development_point.dart';
 
 class MainScreen extends StatefulWidget {
@@ -16,22 +17,51 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: RawScrollbar(
-          controller: _scrollController,
-          child: SingleChildScrollView(
-            child: Center(
+        child: Center(
+          child: RawScrollbar(
+            controller: _scrollController,
+            child: SingleChildScrollView(
               child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: const [
                   DevelopmentPoint(),
-                  SizedBox(width: 20),
+                  ConnectorLine(20),
                   DevelopmentPoint(),
-                  SizedBox(width: 20),
+                  ConnectorLine(20),
                   DevelopmentPoint(),
-                  SizedBox(width: 20),
+                  ConnectorLine(20),
                   DevelopmentPoint(),
-                  SizedBox(width: 20),
+                  ConnectorLine(20),
                   DevelopmentPoint(),
-                  SizedBox(width: 20),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
+                  DevelopmentPoint(),
+                  ConnectorLine(20),
                 ],
               ),
             ),

@@ -10,6 +10,10 @@ class ConnectorLine extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      width: length,
+      height: 2,
+      color: Theme.of(context).colorScheme.onPrimary,
+    );
   }
 }
