@@ -23,6 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  zoom_widget:
+    git: https://github.com/Ashirg-ch/zoom-widget.git
 
 
   # The following adds the Cupertino Icons font to your application.

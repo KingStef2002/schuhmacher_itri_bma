@@ -10,12 +10,12 @@ class DevelopmentPoint extends StatefulWidget {
 class _DevelopmentPointState extends State<DevelopmentPoint>
     with TickerProviderStateMixin {
   bool _isLarge = false;
-  double _size = 20;
+  double _size = 80;
 
   void _updateSize() {
     setState(() {
       _isLarge = !_isLarge;
-      _size = _isLarge ? 40 : 20;
+      _size = _isLarge ? 100 : 80;
     });
   }
 
@@ -23,18 +23,26 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: _updateSize,
-      child: AnimatedSize(
-        duration: const Duration(seconds: 1),
-        child: Container(
-          height: _size,
-          width: _size,
-          decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.primary,
-            border: Border.all(
-              color: Theme.of(context).colorScheme.onPrimary,
-              width: 3,
+      child: Scrollbar(
+        child: AnimatedSize(
+          duration: const Duration(seconds: 1),
+          child: Container(
+            height: _size,
+            width: _size,
+            child: Center(
+              child: Text(
+                'T',
+                style: TextStyle(fontSize: _size - 5),
+              ),
             ),
-            borderRadius: BorderRadius.circular(50),
+            decoration: BoxDecoration(
+              color: Theme.of(context).colorScheme.primary,
+              border: Border.all(
+                color: Theme.of(context).colorScheme.onPrimary,
+                width: 3,
+              ),
+              borderRadius: BorderRadius.circular(500),
+            ),
           ),
         ),
       ),
