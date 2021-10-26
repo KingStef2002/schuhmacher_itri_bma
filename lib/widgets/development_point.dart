@@ -10,29 +10,45 @@ class DevelopmentPoint extends StatefulWidget {
 class _DevelopmentPointState extends State<DevelopmentPoint>
     with TickerProviderStateMixin {
   bool _isLarge = false;
-  double _size = 80;
+  late final AnimationController _controller;
 
-  void _updateSize() {
-    setState(() {
-      _isLarge = !_isLarge;
-      _size = _isLarge ? 100 : 80;
-    });
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      upperBound: 110,
+      lowerBound: 80,
+      duration: const Duration(milliseconds: 250),
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: _updateSize,
-      child: Scrollbar(
-        child: AnimatedSize(
-          duration: const Duration(seconds: 1),
-          child: Container(
-            height: _size,
-            width: _size,
+      onTap: () {
+        if (_isLarge) {
+          _controller.reverse();
+        } else {
+          _controller.forward();
+        }
+        _isLarge = !_isLarge;
+      },
+      child: AnimatedBuilder(
+        builder: (context, child) {
+          return Container(
+            height: _controller.value,
+            width: _controller.value,
             child: Center(
               child: Text(
                 'T',
-                style: TextStyle(fontSize: _size - 5),
+                style: TextStyle(fontSize: _controller.value - 7),
               ),
             ),
             decoration: BoxDecoration(
@@ -43,8 +59,9 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
               ),
               borderRadius: BorderRadius.circular(500),
             ),
-          ),
-        ),
+          );
+        },
+        animation: _controller,
       ),
     );
   }
