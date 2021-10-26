@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:schuhmacher_itri_bma/util/constants.dart';
+import 'package:schuhmacher_itri_bma/util/technology.dart';
+import 'package:schuhmacher_itri_bma/widgets/connector_line.dart';
 
 class DevelopmentPoint extends StatefulWidget {
-  const DevelopmentPoint({Key? key}) : super(key: key);
+  final Technology technology;
+
+  const DevelopmentPoint({
+    required this.technology,
+    Key? key,
+  }) : super(key: key);
 
   @override
   _DevelopmentPointState createState() => _DevelopmentPointState();
@@ -9,7 +17,8 @@ class DevelopmentPoint extends StatefulWidget {
 
 class _DevelopmentPointState extends State<DevelopmentPoint>
     with TickerProviderStateMixin {
-  bool _isLarge = false;
+  bool _isExpanded = false;
+  final double _connectorLength = 20;
   late final AnimationController _controller;
 
   @override
@@ -29,39 +38,64 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
     super.dispose();
   }
 
+  void toggleExpansion() {
+    if (_isExpanded) {
+      _controller.reverse();
+    } else {
+      _controller.forward();
+    }
+    _isExpanded = !_isExpanded;
+  }
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {
-        if (_isLarge) {
-          _controller.reverse();
-        } else {
-          _controller.forward();
-        }
-        _isLarge = !_isLarge;
-      },
-      child: AnimatedBuilder(
-        builder: (context, child) {
-          return Container(
-            height: _controller.value,
-            width: _controller.value,
-            child: Center(
-              child: Text(
-                'T',
-                style: TextStyle(fontSize: _controller.value - 7),
+      onTap: toggleExpansion,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Row(
+            children: [
+              AnimatedBuilder(
+                builder: (context, child) {
+                  return IconTheme(
+                    data: IconThemeData(
+                      size: _controller.value - 7,
+                    ),
+                    child: Container(
+                      height: _controller.value,
+                      width: _controller.value,
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).colorScheme.primary,
+                        border: Border.all(
+                          color: Theme.of(context).colorScheme.onPrimary,
+                          width: 3,
+                        ),
+                        borderRadius: BorderRadius.circular(500),
+                      ),
+                      child: child,
+                    ),
+                  );
+                },
+                animation: _controller,
+                child: Center(
+                  child: Icon(
+                    categoryData[widget.technology.category]!.icon,
+                  ),
+                ),
               ),
-            ),
-            decoration: BoxDecoration(
-              color: Theme.of(context).colorScheme.primary,
-              border: Border.all(
-                color: Theme.of(context).colorScheme.onPrimary,
-                width: 3,
-              ),
-              borderRadius: BorderRadius.circular(500),
-            ),
-          );
-        },
-        animation: _controller,
+              ConnectorLine(_connectorLength),
+            ],
+          ),
+          const SizedBox(height: 10),
+          Row(
+            children: [
+              Text(widget.technology.name),
+              SizedBox(width: _connectorLength),
+            ],
+          ),
+        ],
       ),
     );
   }

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:schuhmacher_itri_bma/util/enums.dart';
+import 'package:schuhmacher_itri_bma/util/technology.dart';
 import 'package:schuhmacher_itri_bma/widgets/connector_line.dart';
 import 'package:schuhmacher_itri_bma/widgets/development_point.dart';
 import 'package:zoom_widget/init_configuration.dart';
@@ -38,45 +40,34 @@ class _MainScreenState extends State<MainScreen> {
               height: 50,
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: const [
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
-                  DevelopmentPoint(),
-                  ConnectorLine(20),
+                children: [
+                  DevelopmentPoint(
+                    technology: Technology(
+                        category: TechCategory.industry,
+                        name: 'Industry 1',
+                        shortDescription: 'shortDescription',
+                        longDescription: 'longDescription',
+                        imageFileName: 'imageFileName',
+                        date: DateTime.now()),
+                  ),
+                  DevelopmentPoint(
+                    technology: Technology(
+                        category: TechCategory.military,
+                        name: 'Military 1',
+                        shortDescription: 'shortDescription',
+                        longDescription: 'longDescription',
+                        imageFileName: 'imageFileName',
+                        date: DateTime.now()),
+                  ),
+                  DevelopmentPoint(
+                    technology: Technology(
+                        category: TechCategory.industry,
+                        name: 'Industry 2',
+                        shortDescription: 'shortDescription',
+                        longDescription: 'longDescription',
+                        imageFileName: 'imageFileName',
+                        date: DateTime.now()),
+                  ),
                 ],
               ),
             ),
@@ -86,3 +77,5 @@ class _MainScreenState extends State<MainScreen> {
     );
   }
 }
+
+const List<Technology> testData = [];
