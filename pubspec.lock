@@ -168,9 +168,9 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "9409e744d90d76c9101b8bf140dcef460174bff5"
+      resolved-ref: "7284e6f1aa474ca8a963b2ba0e677323d1e3c6df"
       url: "https://github.com/Ashirg-ch/zoom-widget.git"
     source: git
-    version: "0.2.1"
+    version: "0.3.0"
 sdks:
   dart: ">=2.12.0 <3.0.0"

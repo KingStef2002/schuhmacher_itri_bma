@@ -13,8 +13,6 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  final _transformationController = TransformationController();
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,11 +24,12 @@ class _MainScreenState extends State<MainScreen> {
         child: Padding(
           padding: const EdgeInsets.all(5.0),
           child: Zoom(
+            //zoomEnabled: false,
             maxZoomWidth: 10000,
             maxZoomHeight: 800,
             initConfiguration: const InitConfiguration(initPositionY: 400),
-            enableScrollbarHeight: false,
-            centerOnScale: true,
+            enableScrollBarHeight: false,
+            //centerOnScale: true,
             canvasColor: Colors.transparent,
             backgroundColor: Colors.transparent,
             zoomSensibility: 1,
