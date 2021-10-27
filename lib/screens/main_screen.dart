@@ -35,6 +35,7 @@ class _MainScreenState extends State<MainScreen> {
           backgroundColor: Colors.transparent,
           zoomSensibility: 1,
           scrollBarRadius: 3,
+          doubleTapZoom: false,
           // onPositionUpdate: (offset) {
           //   print('Offset: ${offset.toString()}');
           // },
