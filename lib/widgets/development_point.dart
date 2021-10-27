@@ -26,8 +26,8 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      upperBound: 110,
-      lowerBound: 80,
+      upperBound: 125,
+      lowerBound: 95,
       duration: const Duration(milliseconds: 250),
     );
   }
