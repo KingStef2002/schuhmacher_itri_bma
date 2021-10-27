@@ -18,7 +18,7 @@ class DevelopmentPoint extends StatefulWidget {
 class _DevelopmentPointState extends State<DevelopmentPoint>
     with TickerProviderStateMixin {
   bool _isExpanded = false;
-  final double _connectorLength = 20;
+  final double _connectorLength = 60;
   late final AnimationController _controller;
 
   @override
