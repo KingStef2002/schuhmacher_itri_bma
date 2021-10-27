@@ -168,7 +168,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "7284e6f1aa474ca8a963b2ba0e677323d1e3c6df"
+      resolved-ref: "51dcca45cbca617dc14fee5f695d077747c13f38"
       url: "https://github.com/Ashirg-ch/zoom-widget.git"
     source: git
     version: "0.3.0"
