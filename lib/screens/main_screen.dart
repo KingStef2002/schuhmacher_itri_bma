@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:schuhmacher_itri_bma/util/enums.dart';
 import 'package:schuhmacher_itri_bma/util/technology.dart';
+import 'package:schuhmacher_itri_bma/util/xml_parser.dart';
 import 'package:schuhmacher_itri_bma/widgets/development_point.dart';
 import 'package:zoom_widget/zoom_widget.dart';
 
@@ -13,6 +14,21 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
+  final List<Technology> _techList = [];
+
+  @override
+  void initState() {
+    super.initState();
+    _setTechList();
+  }
+
+  Future<void> _setTechList() async {
+    final List<Technology> tempList = await XmlParser.parseXml();
+    setState(() {
+      _techList.addAll(tempList);
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,9 +66,9 @@ class _MainScreenState extends State<MainScreen> {
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: List.generate(
-                  testData.length,
+                  _techList.length,
                   (index) => DevelopmentPoint(
-                    technology: testData[index],
+                    technology: _techList[index],
                   ),
                 ),
               ),
@@ -63,166 +79,3 @@ class _MainScreenState extends State<MainScreen> {
     );
   }
 }
-
-List<Technology> testData = [
-  Technology(
-    category: TechCategory.industry,
-    name: 'Industry 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.military,
-    name: 'Military 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.industry,
-    name: 'Industry 2',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.development,
-    name: 'Development 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.industry,
-    name: 'Industry 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.military,
-    name: 'Military 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.industry,
-    name: 'Industry 2',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.development,
-    name: 'Development 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.industry,
-    name: 'Industry 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.military,
-    name: 'Military 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.industry,
-    name: 'Industry 2',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.development,
-    name: 'Development 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.industry,
-    name: 'Industry 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.military,
-    name: 'Military 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.industry,
-    name: 'Industry 2',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.development,
-    name: 'Development 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.industry,
-    name: 'Industry 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.military,
-    name: 'Military 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.industry,
-    name: 'Industry 2',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-  Technology(
-    category: TechCategory.development,
-    name: 'Development 1',
-    shortDescription: 'shortDescription',
-    longDescription: 'longDescription',
-    imageFileName: 'imageFileName',
-    date: DateTime.now(),
-  ),
-];

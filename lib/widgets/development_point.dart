@@ -57,7 +57,7 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
         children: [
           Row(
             children: [
-              Text(widget.technology.name),
+              Text(widget.technology.shortDescription),
               SizedBox(width: _connectorLength),
             ],
           ),
@@ -88,7 +88,7 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
                 animation: _controller,
                 child: Center(
                   child: Icon(
-                    categoryData[widget.technology.category]!.icon,
+                    categoryData[widget.technology.category]?.icon,
                   ),
                 ),
               ),
