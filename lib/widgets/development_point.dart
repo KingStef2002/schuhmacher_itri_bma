@@ -57,6 +57,13 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
         children: [
           Row(
             children: [
+              Text(widget.technology.name),
+              SizedBox(width: _connectorLength),
+            ],
+          ),
+          const SizedBox(height: 10),
+          Row(
+            children: [
               AnimatedBuilder(
                 builder: (context, child) {
                   return IconTheme(
@@ -91,7 +98,7 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
           const SizedBox(height: 10),
           Row(
             children: [
-              Text(widget.technology.name),
+              Text(widget.technology.date.year.toString()),
               SizedBox(width: _connectorLength),
             ],
           ),
