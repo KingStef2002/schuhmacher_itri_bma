@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'package:flutter/services.dart';
 
 import 'package:xml/xml.dart';
@@ -15,9 +14,9 @@ abstract class XmlParser {
       final XmlDocument document = XmlDocument.parse(file);
 
       for (XmlElement record in document.rootElement.childElements) {
-        print(record.childElements);
         TechCategory category;
-        switch (record.getElement('category')?.attributes.first.value) {
+
+        switch (record.getElement('category')?.innerText) {
           case 'military':
             category = TechCategory.military;
             break;
@@ -48,17 +47,16 @@ abstract class XmlParser {
         }
 
         try {
-          print('Attempting to add tech: ${record.toString()}');
           _techList.add(
             Technology(
               category: category,
-              shortDescription: '', //record.getAttribute('shortDescription')!,
-              longDescription: record.getAttribute('description')!,
-              imageFileName: '', //record.getAttribute('imagePath')!,
-              date: DateTime(int.parse(record.getAttribute('year') ?? '1')),
+              shortDescription:
+                  record.getElement('shortDescription')!.innerText,
+              longDescription: record.getElement('description')!.innerText,
+              imageFileName: record.getElement('imagePath')!.innerText,
+              date: DateTime(int.parse(record.getElement('year')!.innerText)),
             ),
           );
-          print(_techList.last);
         } catch (e) {
           print('Exception during parsing XML to Technologies: $e');
         }

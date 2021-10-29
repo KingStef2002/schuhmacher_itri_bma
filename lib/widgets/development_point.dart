@@ -56,8 +56,18 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Row(
+            mainAxisSize: MainAxisSize.min,
             children: [
-              Text(widget.technology.shortDescription),
+              SizedBox(
+                width: 95,
+                child: Text(
+                  widget.technology.shortDescription,
+                  textAlign: TextAlign.center,
+                  maxLines: 3,
+                  softWrap: true,
+                  overflow: TextOverflow.visible,
+                ),
+              ),
               SizedBox(width: _connectorLength),
             ],
           ),
