@@ -6,5 +6,6 @@ enum TechCategory {
   medicine,
   transportation,
   energy,
-  development, // ?
+  information,
+  development,
 }
