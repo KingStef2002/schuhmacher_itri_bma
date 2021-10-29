@@ -12,7 +12,7 @@ class ConnectorLine extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: length,
-      height: 2,
+      height: 3,
       color: Theme.of(context).colorScheme.primary,
     );
   }
