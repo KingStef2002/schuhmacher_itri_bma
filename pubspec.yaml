@@ -26,6 +26,7 @@ dependencies:
   zoom_widget:
     git: https://github.com/Ashirg-ch/zoom-widget.git
   xml: ^5.3.1
+  loading_overlay: ^0.3.0
 
 
   # The following adds the Cupertino Icons font to your application.
