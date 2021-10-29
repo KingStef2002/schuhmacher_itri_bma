@@ -15,6 +15,7 @@ abstract class XmlParser {
 
       for (XmlElement record in document.rootElement.childElements) {
         TechCategory category;
+        print(record.getElement('category')?.innerText);
 
         switch (record.getElement('category')?.innerText) {
           case 'military':
@@ -32,11 +33,14 @@ abstract class XmlParser {
           case 'medicine':
             category = TechCategory.development;
             break;
-          case 'development;':
+          case 'development':
             category = TechCategory.development;
             break;
           case 'industry':
             category = TechCategory.industry;
+            break;
+          case 'information':
+            category = TechCategory.information;
             break;
           case 'none':
             category = TechCategory.none;
@@ -53,7 +57,7 @@ abstract class XmlParser {
               shortDescription:
                   record.getElement('shortDescription')!.innerText,
               longDescription: record.getElement('description')!.innerText,
-              imageFileName: record.getElement('imagePath')!.innerText,
+              imageFileName: record.getElement('imagePath')?.innerText ?? '',
               date: DateTime(int.parse(record.getElement('year')!.innerText)),
             ),
           );

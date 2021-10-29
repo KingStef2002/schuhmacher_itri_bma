@@ -60,12 +60,16 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
             children: [
               SizedBox(
                 width: 95,
-                child: Text(
-                  widget.technology.shortDescription,
-                  textAlign: TextAlign.center,
-                  maxLines: 3,
-                  softWrap: true,
-                  overflow: TextOverflow.visible,
+                height: 60,
+                child: Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Text(
+                    widget.technology.shortDescription,
+                    textAlign: TextAlign.center,
+                    maxLines: 3,
+                    softWrap: true,
+                    overflow: TextOverflow.visible,
+                  ),
                 ),
               ),
               SizedBox(width: _connectorLength),
@@ -78,7 +82,7 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
                 builder: (context, child) {
                   return IconTheme(
                     data: IconThemeData(
-                      size: _controller.value - 7,
+                      size: _controller.value - 16,
                     ),
                     child: Container(
                       height: _controller.value,
