@@ -15,7 +15,6 @@ abstract class XmlParser {
 
       for (XmlElement record in document.rootElement.childElements) {
         TechCategory category;
-        print(record.getElement('category')?.innerText);
 
         switch (record.getElement('category')?.innerText) {
           case 'military':
