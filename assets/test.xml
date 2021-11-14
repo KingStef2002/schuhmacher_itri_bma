@@ -5,28 +5,28 @@
 		<shortDescription>Einfache Dampfreaktionsturbine</shortDescription>
 		<description>test</description>
 		<category>development</category>
-		<imagePath>Images\Heronsball_Animation.gif</imagePath>
+		<imagePath>Heronsball_Animation.gif</imagePath>
 	</record>
 	<record>
 		<year>300</year>
 		<shortDescription>Erste alchemistische Forschung</shortDescription>
 		<description>test</description>
 		<category>development</category>
-		<imagePath>Images\Distillation_by_Retort.png</imagePath>
+		<imagePath>Distillation_by_Retort.png</imagePath>
 	</record>
 	<record>
 		<year>400</year>
 		<shortDescription>Erfindung des Bucheinbands</shortDescription>
 		<description>test</description>
 		<category>information</category>
-		<imagePath>Images\Old_book_bindings.jpg</imagePath>
+		<imagePath>Old_book_bindings.jpg</imagePath>
 	</record>
 	<record>
 		<year>400</year>
 		<shortDescription>Gänsefeder als Schreibgerät</shortDescription>
 		<description>test</description>
 		<category>none</category>
-		<imagePath>Images\Quill.png</imagePath>
+		<imagePath>Quill.png</imagePath>
 	</record>
 	<record>
 		<year>620</year>
