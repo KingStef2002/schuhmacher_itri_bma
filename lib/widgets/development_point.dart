@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:schuhmacher_itri_bma/util/constants.dart';
 import 'package:schuhmacher_itri_bma/util/technology.dart';
 import 'package:schuhmacher_itri_bma/widgets/connector_line.dart';
+import 'package:speech_bubble/speech_bubble.dart';
 
 class DevelopmentPoint extends StatefulWidget {
   final Technology technology;
@@ -38,42 +39,71 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
     super.dispose();
   }
 
-  void toggleExpansion() {
+  void _toggleExpansion() {
     if (_isExpanded) {
       _controller.reverse();
     } else {
       _controller.forward();
     }
-    _isExpanded = !_isExpanded;
+    setState(() {
+      _isExpanded = !_isExpanded;
+    });
   }
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: toggleExpansion,
+      onTap: _toggleExpansion,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              SizedBox(
-                width: 95,
-                height: 60,
-                child: Align(
-                  alignment: Alignment.bottomCenter,
-                  child: Text(
-                    widget.technology.shortDescription,
-                    textAlign: TextAlign.center,
-                    maxLines: 3,
-                    softWrap: true,
-                    overflow: TextOverflow.visible,
-                  ),
-                ),
-              ),
-              SizedBox(width: _connectorLength),
-            ],
+          SizedBox(
+            height: 100,
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                _isExpanded
+                    ? GestureDetector(
+                        onTap: () {
+                          // TODO: Dialog with more information
+                          showDialog(
+                            context: context,
+                            builder: (context) => SimpleDialog(
+                              title: Text(widget.technology.shortDescription),
+                            ),
+                          );
+                        },
+                        child: AnimatedBuilder(
+                          animation: _controller,
+                          builder: (context, child) {
+                            return SpeechBubble(
+                              padding: const EdgeInsets.all(10),
+                              height: double.infinity,
+                              width: _controller.value,
+                              color: const Color(0xFF9E9E9E),
+                              borderRadius: 10,
+                              child: Text(widget.technology.longDescription),
+                            );
+                          },
+                        ),
+                      ) // TODO: Fix animation
+                    : SizedBox(
+                        width: _controller.lowerBound,
+                        child: Align(
+                          alignment: Alignment.bottomCenter,
+                          child: Text(
+                            widget.technology.shortDescription,
+                            textAlign: TextAlign.center,
+                            maxLines: 3,
+                            softWrap: true,
+                            overflow: TextOverflow.visible,
+                          ),
+                        ),
+                      ),
+                SizedBox(width: _connectorLength),
+              ],
+            ),
           ),
           const SizedBox(height: 10),
           Row(
