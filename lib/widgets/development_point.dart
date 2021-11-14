@@ -19,7 +19,7 @@ class DevelopmentPoint extends StatefulWidget {
 class _DevelopmentPointState extends State<DevelopmentPoint>
     with TickerProviderStateMixin {
   bool _isExpanded = false;
-  final double _connectorLength = 60;
+  static const double _connectorLength = 60;
   late final AnimationController _controller;
 
   @override
@@ -101,7 +101,7 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
                           ),
                         ),
                       ),
-                SizedBox(width: _connectorLength),
+                const SizedBox(width: _connectorLength),
               ],
             ),
           ),
@@ -123,7 +123,9 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
                           color: Theme.of(context).colorScheme.onPrimary,
                           width: 3,
                         ),
-                        borderRadius: BorderRadius.circular(500),
+                        borderRadius: const BorderRadius.all(
+                          Radius.circular(500),
+                        ),
                       ),
                       child: child,
                     ),
@@ -136,14 +138,16 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
                   ),
                 ),
               ),
-              ConnectorLine(_connectorLength),
+              const ConnectorLine(_connectorLength),
             ],
           ),
           const SizedBox(height: 10),
           Row(
             children: [
-              Text(widget.technology.date.year.toString()),
-              SizedBox(width: _connectorLength),
+              Text(
+                widget.technology.date.year.toString(),
+              ),
+              const SizedBox(width: _connectorLength),
             ],
           ),
         ],

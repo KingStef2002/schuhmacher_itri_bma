@@ -133,7 +133,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: fb2e887e34efd37206741f16556144f7c3c2e988
+      resolved-ref: "0538a327c98bfd15abc7185a1a59ffb5b79d71dc"
       url: "https://github.com/Ashirg-ch/PHSpeechBubble.git"
     source: git
     version: "0.0.10"
