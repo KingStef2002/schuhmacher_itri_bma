@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+
+import 'package:speech_bubble/speech_bubble.dart';
+
 import 'package:schuhmacher_itri_bma/util/constants.dart';
 import 'package:schuhmacher_itri_bma/util/technology.dart';
 import 'package:schuhmacher_itri_bma/widgets/connector_line.dart';
 import 'package:schuhmacher_itri_bma/widgets/info_dialog.dart';
-import 'package:speech_bubble/speech_bubble.dart';
 
 class DevelopmentPoint extends StatefulWidget {
   final Technology technology;
