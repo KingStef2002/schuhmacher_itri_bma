@@ -58,7 +58,7 @@ class _MainScreenState extends State<MainScreen> {
           child: Zoom(
             maxZoomWidth: 23000,
             maxZoomHeight: 1600,
-            initConfiguration: const InitConfiguration(initPositionY: 800),
+            initConfiguration: const InitConfiguration(initPositionY: 840),
             enableScrollBarHeight: false,
             centerOnScale: false,
             colorScrollBars: Colors.white,
