@@ -15,21 +15,33 @@ class InfoDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SimpleDialog(
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.all(
+          Radius.circular(6),
+        ),
+      ),
       title: Text(technology.shortDescription),
       children: [
-        Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Image.asset(
-              'assets/Images/${technology.imageFileName}',
-              height: MediaQuery.of(context).size.height * 0.7,
+        Builder(builder: (context) {
+          final width = MediaQuery.of(context).size.width;
+
+          return SizedBox(
+            width: width,
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Image.asset(
+                  'assets/Images/${technology.imageFileName}',
+                  height: MediaQuery.of(context).size.height * 0.7,
+                ),
+                const SizedBox(
+                  width: 10,
+                ),
+                Text(technology.longDescription),
+              ],
             ),
-            const SizedBox(
-              width: 10,
-            ),
-            Text(technology.longDescription),
-          ],
-        ),
+          );
+        }),
       ],
     );
   }
