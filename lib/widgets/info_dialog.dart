@@ -40,7 +40,7 @@ class InfoDialog extends StatelessWidget {
               Text(technology.longDescription),
             ],
           ),
-        )
+        ),
       ],
     );
   }

@@ -58,6 +58,7 @@ abstract class XmlParser {
               longDescription: record.getElement('description')!.innerText,
               imageFileName: record.getElement('imagePath')?.innerText ?? '',
               date: DateTime(int.parse(record.getElement('year')!.innerText)),
+              datePrecision: 0,
             ),
           );
         } catch (e) {
