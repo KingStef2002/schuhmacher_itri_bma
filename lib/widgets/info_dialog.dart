@@ -25,26 +25,22 @@ class InfoDialog extends StatelessWidget {
         child: Text(technology.shortDescription),
       ),
       children: [
-        Builder(builder: (context) {
-          final width = MediaQuery.of(context).size.width;
-
-          return SizedBox(
-            width: width,
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Image.asset(
-                  'assets/Images/${technology.imageFileName}',
-                  height: MediaQuery.of(context).size.height * 0.7,
-                ),
-                const SizedBox(
-                  width: 10,
-                ),
-                Text(technology.longDescription),
-              ],
-            ),
-          );
-        }),
+        SizedBox(
+          width: MediaQuery.of(context).size.width,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Image.asset(
+                'assets/Images/${technology.imageFileName}',
+                height: MediaQuery.of(context).size.height * 0.7,
+              ),
+              const SizedBox(
+                width: 10,
+              ),
+              Text(technology.longDescription),
+            ],
+          ),
+        )
       ],
     );
   }
