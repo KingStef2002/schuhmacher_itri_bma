@@ -20,7 +20,10 @@ class InfoDialog extends StatelessWidget {
           Radius.circular(6),
         ),
       ),
-      title: Text(technology.shortDescription),
+      contentPadding: const EdgeInsets.fromLTRB(24.0, 12.0, 24.0, 16.0),
+      title: Align(
+        child: Text(technology.shortDescription),
+      ),
       children: [
         Builder(builder: (context) {
           final width = MediaQuery.of(context).size.width;
