@@ -51,15 +51,16 @@ class Technology {
   String getDate({bool long = true}) {
     switch (datePrecision) {
       case 0:
-        return 'Um ${date.year}';
+        return 'Um ${date.year} AD';
       case 1:
-        return date.year.toString();
+        return '${date.year} AD';
       case 2:
         return '${date.month}. ${date.year}';
       case 4:
         if (long) {
           return '${date.hour}:${date.minute} ${date.day}. ${date.month}. ${date.year}';
         } else {
+          // TODO: Test if this works as intended
           continue test;
         }
       test:

@@ -37,7 +37,17 @@ class InfoDialog extends StatelessWidget {
               const SizedBox(
                 width: 10,
               ),
-              Text(technology.longDescription),
+              Column(
+                children: [
+                  Align(
+                    child: Text(
+                      technology.getDate(long: true),
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                  Text(technology.longDescription),
+                ],
+              ),
             ],
           ),
         ),

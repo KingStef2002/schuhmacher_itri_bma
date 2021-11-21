@@ -147,7 +147,7 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
           Row(
             children: [
               Text(
-                widget.technology.date.year.toString(),
+                widget.technology.getDate(),
               ),
               const SizedBox(width: _connectorLength),
             ],
