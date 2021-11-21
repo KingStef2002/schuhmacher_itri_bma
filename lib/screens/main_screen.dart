@@ -8,8 +8,16 @@ import 'package:schuhmacher_itri_bma/util/technology.dart';
 import 'package:schuhmacher_itri_bma/util/xml_parser.dart';
 import 'package:schuhmacher_itri_bma/widgets/development_point.dart';
 
+/// This main screen is the start window of the application,
+/// containing the time line that is the main content and purpose of the
+/// entire project.
 class MainScreen extends StatefulWidget {
+  /// The static navigation route to this screen.
   static const route = '/';
+
+  /// This main screen is the start window of the application,
+  /// containing the time line that is the main content and purpose of the
+  /// entire project.
   const MainScreen({Key? key}) : super(key: key);
 
   @override

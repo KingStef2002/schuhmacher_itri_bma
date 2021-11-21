@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:schuhmacher_itri_bma/util/enums.dart';
 import 'package:schuhmacher_itri_bma/util/tech_category.dart';
 
+/// This constant list links each [TechCategory] value to a [TechCategoryData]
+/// object, allowing the app to access the data from the enum values.
 const Map<TechCategory, TechCategoryData> categoryData = {
   TechCategory.development: TechCategoryData(
     icon: Icons.science,

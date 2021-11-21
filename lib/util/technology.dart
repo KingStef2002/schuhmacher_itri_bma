@@ -48,6 +48,8 @@ class Technology {
     required this.datePrecision,
   });
 
+  /// Return a string representation of the [date],
+  /// based on [datePrecision].
   String getDate({bool long = true}) {
     switch (datePrecision) {
       case 0:

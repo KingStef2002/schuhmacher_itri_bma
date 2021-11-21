@@ -1,11 +1,19 @@
 import 'package:flutter/material.dart';
 
 import 'package:schuhmacher_itri_bma/util/technology.dart';
+import 'package:schuhmacher_itri_bma/widgets/development_point.dart';
 
-/// A dialog showing further information about a technological development.
+/// A dialog showing further information about a single [Technology].
+///
+/// Called from a [DevelopmentPoint] when the info bubble is pressed.
 class InfoDialog extends StatelessWidget {
+  /// The actual technology object containing the information
+  /// shown in this dialog.
   final Technology technology;
 
+  /// A dialog showing further information about a single [Technology].
+  ///
+  /// Called from a [DevelopmentPoint] when the info bubble is pressed.
   const InfoDialog({
     required this.technology,
     Key? key,
@@ -38,11 +46,10 @@ class InfoDialog extends StatelessWidget {
                 width: 10,
               ),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Align(
-                    child: Text(
-                      technology.getDate(long: true),
-                    ),
+                  Text(
+                    technology.getDate(long: true),
                   ),
                   const SizedBox(height: 20),
                   Text(technology.longDescription),

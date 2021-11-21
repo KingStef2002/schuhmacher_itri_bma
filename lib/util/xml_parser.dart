@@ -5,9 +5,18 @@ import 'package:xml/xml.dart';
 import 'package:schuhmacher_itri_bma/util/technology.dart';
 import 'package:schuhmacher_itri_bma/util/enums.dart';
 
+/// A helper class that parses the data from the asset XML file into
+/// usable [Technology] objects, using [parseXml] and storing them in [_techList].
+///
+/// The data gets only parsed once during the startup of the app,
+/// any further calls to [parseXml] will simply return [_techList].
 abstract class XmlParser {
   static final List<Technology> _techList = [];
 
+  /// The function used to parse the XML asset file into usable [Technology] objects.
+  ///
+  /// Only the first call will actually parse the data and store it in
+  /// [_techList], any further calls will simply return [_techList] as-is.
   static Future<List<Technology>> parseXml() async {
     if (_techList.isEmpty) {
       final file = await rootBundle.loadString('assets/test.xml');
@@ -68,6 +77,7 @@ abstract class XmlParser {
         }
       }
     }
+
     return _techList;
   }
 }

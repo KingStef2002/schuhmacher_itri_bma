@@ -6,10 +6,23 @@ import 'package:schuhmacher_itri_bma/util/constants.dart';
 import 'package:schuhmacher_itri_bma/util/technology.dart';
 import 'package:schuhmacher_itri_bma/widgets/connector_line.dart';
 import 'package:schuhmacher_itri_bma/widgets/info_dialog.dart';
+import 'package:schuhmacher_itri_bma/screens/main_screen.dart';
 
+/// A widget that visually represents a single [Technology],
+/// used in the timeline of the [MainScreen].
+///
+/// Enlarges when pressed and shows an info bubble, which opens an [InfoDialog]
+/// when pressed.
 class DevelopmentPoint extends StatefulWidget {
+  /// The technology that this widget represents,
+  /// containing all needed data.
   final Technology technology;
 
+  /// A widget that visually represents a single [Technology],
+  /// used in the timeline of the [MainScreen].
+  ///
+  /// Enlarges when pressed and shows an info bubble, which opens an [InfoDialog]
+  /// when pressed.
   const DevelopmentPoint({
     required this.technology,
     Key? key,

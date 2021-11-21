@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:schuhmacher_itri_bma/screens/help_screen.dart';
 import 'package:schuhmacher_itri_bma/screens/main_screen.dart';
 
+/// The central point of the app, this widget contains everything.
 class App extends StatelessWidget {
+  /// The central point of the app, this widget contains everything.
   const App({Key? key}) : super(key: key);
 
   @override
