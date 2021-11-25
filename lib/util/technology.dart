@@ -37,6 +37,10 @@ class Technology {
   /// * 4: At this hour (or even minute) of the day.
   final int datePrecision;
 
+  /// The sources where we got this information from and
+  /// where the user can find further information about this technology.
+  final String sources;
+
   /// Each object of this class represents and holds the data for a single
   /// technological development.
   const Technology({
@@ -46,6 +50,7 @@ class Technology {
     required this.imageFileName,
     required this.date,
     required this.datePrecision,
+    required this.sources,
   });
 
   /// Return a string representation of the [date],

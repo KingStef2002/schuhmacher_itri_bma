@@ -67,9 +67,12 @@ abstract class XmlParser {
               longDescription: record.getElement('description')!.innerText,
               // TODO: Set fallback default image
               imageFileName: record.getElement('imagePath')?.innerText ?? '',
+              // TODO: Make a special parser
               date: DateTime(int.parse(record.getElement('year')!.innerText)),
               // TODO: Fetch date precision
               datePrecision: 0,
+              // TODO: Fetch sources
+              sources: '',
             ),
           );
         } catch (e) {
