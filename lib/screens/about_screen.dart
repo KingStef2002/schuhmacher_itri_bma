@@ -13,6 +13,15 @@ class AboutScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: Complete and integrate the about screen.
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Über'),
+      ),
+      body: const SafeArea(
+        child: Center(
+          child: Text('Eine BMA von G. Schuhmacher und S. Itri'),
+        ),
+      ),
+    );
   }
 }
