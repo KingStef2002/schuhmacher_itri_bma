@@ -1,4 +1,5 @@
 import 'package:flutter/services.dart';
+import 'package:schuhmacher_itri_bma/util/date_parser.dart';
 
 import 'package:xml/xml.dart';
 
@@ -19,7 +20,7 @@ abstract class XmlParser {
   /// [_techList], any further calls will simply return [_techList] as-is.
   static Future<List<Technology>> parseXml() async {
     if (_techList.isEmpty) {
-      final file = await rootBundle.loadString('assets/test.xml');
+      final file = await rootBundle.loadString('assets/Technologies.xml');
       final XmlDocument document = XmlDocument.parse(file);
 
       for (XmlElement record in document.rootElement.childElements) {
@@ -62,17 +63,19 @@ abstract class XmlParser {
           _techList.add(
             Technology(
               category: category,
-              shortDescription:
-                  record.getElement('shortDescription')!.innerText,
-              longDescription: record.getElement('description')!.innerText,
+              shortDescription: record.getElement('name')?.innerText ?? 'ERROR',
+              longDescription:
+                  record.getElement('description')?.innerText ?? 'ERROR',
               // TODO: Set fallback default image
               imageFileName: record.getElement('imagePath')?.innerText ?? '',
               // TODO: Make a special parser
-              date: DateTime(int.parse(record.getElement('year')!.innerText)),
-              // TODO: Fetch date precision
-              datePrecision: 0,
-              // TODO: Fetch sources
-              sources: '',
+              date: DateParser.parseDate(
+                record.getElement('year')?.innerText ?? '',
+              ),
+              datePrecision: int.parse(
+                record.getElement('datePrecision')?.innerText ?? '0',
+              ),
+              sources: record.getElement('year')?.innerText ?? '',
             ),
           );
         } catch (e) {
