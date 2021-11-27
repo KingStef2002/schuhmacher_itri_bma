@@ -70,12 +70,12 @@ abstract class XmlParser {
               imageFileName: record.getElement('imagePath')?.innerText ?? '',
               // TODO: Make a special parser
               date: DateParser.parseDate(
-                record.getElement('year')?.innerText ?? '',
+                record.getElement('date')?.innerText ?? '',
               ),
               datePrecision: int.parse(
                 record.getElement('datePrecision')?.innerText ?? '0',
               ),
-              sources: record.getElement('year')?.innerText ?? '',
+              sources: record.getElement('sources')?.innerText ?? '',
             ),
           );
         } catch (e) {

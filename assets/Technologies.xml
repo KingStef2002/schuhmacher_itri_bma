@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Technologies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Technologies>
 	<Technology>
 		<category>none</category>
 		<name>Verwendung von Dampf</name>
@@ -19,7 +19,7 @@ In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at
 In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
 		<imagePath>Distillation_by_Retort.png</imagePath>
 		<date>01.01.0300</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 		<sources>https://www.seilnacht.com/chemiker/alchemie.html
 https://de.wikipedia.org/wiki/Alchemie</sources>
 	</Technology>
@@ -31,7 +31,7 @@ https://de.wikipedia.org/wiki/Alchemie</sources>
 In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
 		<imagePath>Old_book_bindings.jpg</imagePath>
 		<date>01.01.0400</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 		<sources>https://www.buecher-wiki.de/index.php/BuecherWiki/GeschichteDerBuchbindung</sources>
 	</Technology>
 	<Technology>

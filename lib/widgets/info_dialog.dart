@@ -28,7 +28,7 @@ class InfoDialog extends StatelessWidget {
           Radius.circular(6),
         ),
       ),
-      contentPadding: const EdgeInsets.fromLTRB(24.0, 12.0, 24.0, 16.0),
+      contentPadding: const EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
       title: Align(
         child: Text(technology.shortDescription),
       ),
@@ -40,7 +40,7 @@ class InfoDialog extends StatelessWidget {
             children: [
               Image.asset(
                 'assets/Images/${technology.imageFileName}',
-                height: MediaQuery.of(context).size.height * 0.7,
+                width: MediaQuery.of(context).size.width * 0.4,
               ),
               const SizedBox(
                 width: 10,
@@ -52,7 +52,13 @@ class InfoDialog extends StatelessWidget {
                     technology.getDate(long: true),
                   ),
                   const SizedBox(height: 20),
-                  Text(technology.longDescription),
+                  SizedBox(
+                    width: MediaQuery.of(context).size.width * 0.4,
+                    child: Text(
+                      technology.longDescription,
+                      softWrap: true,
+                    ),
+                  ),
                 ],
               ),
             ],
