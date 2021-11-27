@@ -59,6 +59,8 @@ class InfoDialog extends StatelessWidget {
                       softWrap: true,
                     ),
                   ),
+                  const SizedBox(height: 20),
+                  Text(technology.sources),
                 ],
               ),
             ],

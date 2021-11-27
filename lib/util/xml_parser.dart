@@ -24,7 +24,7 @@ abstract class XmlParser {
       final XmlDocument document = XmlDocument.parse(file);
 
       for (XmlElement record in document.rootElement.childElements) {
-        TechCategory category;
+        late final TechCategory category;
 
         switch (record.getElement('category')?.innerText) {
           case 'military':
@@ -63,12 +63,12 @@ abstract class XmlParser {
           _techList.add(
             Technology(
               category: category,
-              shortDescription: record.getElement('name')?.innerText ?? 'ERROR',
+              shortDescription: record.getElement('name')?.innerText ??
+                  record.getElement('shortDescription')!.innerText,
               longDescription:
                   record.getElement('description')?.innerText ?? 'ERROR',
               // TODO: Set fallback default image
               imageFileName: record.getElement('imagePath')?.innerText ?? '',
-              // TODO: Make a special parser
               date: DateParser.parseDate(
                 record.getElement('date')?.innerText ?? '',
               ),
@@ -79,7 +79,9 @@ abstract class XmlParser {
             ),
           );
         } catch (e) {
-          print('Exception during parsing XML to Technologies: $e');
+          print(
+            'XML Parser exception for technology ${record.getElement('name')?.innerText ?? record.getElement('shortDescription')?.innerText ?? '[unknown name]'}: $e',
+          );
         }
       }
     }

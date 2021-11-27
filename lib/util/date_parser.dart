@@ -9,12 +9,7 @@ abstract class DateParser {
     try {
       return _timeFormat.parse(string);
     } catch (_) {
-      try {
-        return _dayFormat.parse(string);
-      } catch (e) {
-        print('DateParser error for $string: $e');
-        return DateTime.now();
-      }
+      return _dayFormat.parse(string);
     }
   }
 
