@@ -8,6 +8,8 @@ import 'package:schuhmacher_itri_bma/util/technology.dart';
 import 'package:schuhmacher_itri_bma/util/xml_parser.dart';
 import 'package:schuhmacher_itri_bma/widgets/development_point.dart';
 
+import 'about_screen.dart';
+
 /// This main screen is the start window of the application,
 /// containing the time line that is the main content and purpose of the
 /// entire project.
@@ -48,15 +50,28 @@ class _MainScreenState extends State<MainScreen> {
         actions: [
           IconButton(
             onPressed: () {
+              // TODO: Refresh/reload the view
+            },
+            icon: const Icon(
+              Icons.refresh_rounded,
+            ),
+          ),
+          IconButton(
+            onPressed: () {
               Navigator.of(context).pushNamed(HelpScreen.route);
             },
             icon: const Icon(
               Icons.help_outline,
             ),
           ),
-          // PopupMenuButton(
-          //   itemBuilder: (context) => [const PopupMenuItem(child: child)],
-          // ),
+          IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AboutScreen.route);
+            },
+            icon: const Icon(
+              Icons.info_outline_rounded,
+            ),
+          ),
         ],
       ),
       body: SafeArea(
