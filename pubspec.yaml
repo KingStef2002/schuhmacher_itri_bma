@@ -27,6 +27,7 @@ dependencies:
     git: https://github.com/Ashirg-ch/zoom-widget.git
   xml: ^5.3.1
   loading_overlay: ^0.3.0
+  intl: ^0.17.0
   speech_bubble:
     git: https://github.com/Ashirg-ch/PHSpeechBubble.git
 
