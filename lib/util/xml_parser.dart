@@ -65,8 +65,7 @@ abstract class XmlParser {
               category: category,
               shortDescription: record.getElement('name')?.innerText ??
                   record.getElement('shortDescription')!.innerText,
-              longDescription:
-                  record.getElement('description')?.innerText ?? 'ERROR',
+              longDescription: record.getElement('description')!.innerText,
               // TODO: Set fallback default image
               imageFileName: record.getElement('imagePath')?.innerText ?? '',
               date: DateParser.parseDate(
@@ -80,7 +79,7 @@ abstract class XmlParser {
           );
         } catch (e) {
           print(
-            'XML Parser exception for technology ${record.getElement('name')?.innerText ?? record.getElement('shortDescription')?.innerText ?? '[unknown name]'}: $e',
+            'XML Parser exception for technology "${record.getElement('name')?.innerText ?? record.getElement('shortDescription')?.innerText ?? '[unknown name]'}": $e',
           );
         }
       }
