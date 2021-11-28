@@ -13,23 +13,24 @@ const Map<TechCategory, TechCategoryData> categoryData = {
   TechCategory.military: TechCategoryData(
     icon: Icons.military_tech,
     name: 'Militär',
-    description: '(Zunächst) primär militärisch verwendet',
+    description: '(Zunächst) primär militärisch verwendete Technologien',
   ),
   TechCategory.industry: TechCategoryData(
     icon: Icons.precision_manufacturing_outlined,
     name: 'Industrie',
-    description: 'Industrielle Entwicklungen wie etwa das Fliessband',
+    description: 'Industrielle Entwicklungen. wie etwa das Fliessband',
   ),
   TechCategory.information: TechCategoryData(
     icon: Icons.book,
     name: 'Information',
     description:
-        'Eine Entwicklung, die zur Verbreitung von Informationen beiträgt',
+        'Eine Entwicklung, die zur Verarbeitung und/oder Verbreitung von Informationen beiträgt',
   ),
   TechCategory.energy: TechCategoryData(
     icon: Icons.flash_on,
     name: 'Energie',
-    description: 'Energetische Entwicklungen, meist betreffend Strom',
+    description:
+        'Energetische Entwicklungen, meist betreffend Strom oder Wärme',
   ),
   TechCategory.transportation: TechCategoryData(
     icon: Icons.directions_transit,
@@ -39,7 +40,8 @@ const Map<TechCategory, TechCategoryData> categoryData = {
   TechCategory.medicine: TechCategoryData(
     icon: Icons.medical_services_outlined,
     name: 'Medizin',
-    description: 'Entwicklungen im Gesudheitswesen, präventiv und behandelnd',
+    description:
+        'Entwicklungen im Gesundheitswesen, sowohl für Prävention als auch für Behandlung',
   ),
   TechCategory.entertainment: TechCategoryData(
     icon: Icons.videogame_asset,
