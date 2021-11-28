@@ -50,7 +50,7 @@ class _MainScreenState extends State<MainScreen> {
         actions: [
           IconButton(
             onPressed: () {
-              // TODO: Refresh/reload the view
+              Navigator.of(context).pushReplacementNamed(MainScreen.route);
             },
             icon: const Icon(
               Icons.refresh_rounded,
