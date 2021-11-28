@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:schuhmacher_itri_bma/screens/main_screen.dart';
 
+import 'package:schuhmacher_itri_bma/screens/main_screen.dart';
 import 'package:schuhmacher_itri_bma/util/enums.dart';
 import 'package:schuhmacher_itri_bma/util/constants.dart';
 import 'package:schuhmacher_itri_bma/widgets/info_dialog.dart';
@@ -15,6 +15,9 @@ class TechCategoryData {
 
   /// The name of the category, shown in the [InfoDialog].
   final String name;
+
+  /// A simple description of the category and what it stands for,
+  /// shown in the [InfoDialog].
   final String description;
 
   /// The data for a single [TechCategory] value,

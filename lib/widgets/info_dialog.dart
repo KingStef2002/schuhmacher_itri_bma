@@ -33,7 +33,7 @@ class InfoDialog extends StatelessWidget {
       ),
       contentPadding: const EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
       title: Align(
-        child: Text(technology.shortDescription),
+        child: Text(technology.name),
       ),
       children: [
         SizedBox(
@@ -58,7 +58,7 @@ class InfoDialog extends StatelessWidget {
                     ),
                     const SizedBox(height: 20),
                     Text(
-                      technology.longDescription,
+                      technology.description,
                       softWrap: true,
                     ),
                     const SizedBox(height: 20),

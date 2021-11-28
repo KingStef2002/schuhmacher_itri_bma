@@ -7,8 +7,7 @@ import 'package:schuhmacher_itri_bma/screens/help_screen.dart';
 import 'package:schuhmacher_itri_bma/util/technology.dart';
 import 'package:schuhmacher_itri_bma/util/xml_parser.dart';
 import 'package:schuhmacher_itri_bma/widgets/development_point.dart';
-
-import 'about_screen.dart';
+import 'package:schuhmacher_itri_bma/screens/about_screen.dart';
 
 /// This main screen is the start window of the application,
 /// containing the time line that is the main content and purpose of the
@@ -76,13 +75,12 @@ class _MainScreenState extends State<MainScreen> {
       ),
       body: SafeArea(
         // TODO: Ensure that the viewport always centers on the middle
-        // TODO: Fix issue with first time load not centering
         child: LoadingOverlay(
           opacity: 0.8,
           color: Colors.black,
           isLoading: _techList.isEmpty,
           child: Zoom(
-            maxZoomWidth: 23000,
+            maxZoomWidth: 25000,
             maxZoomHeight: 1600,
             initConfiguration: const InitConfiguration(initPositionY: 840),
             enableScrollBarHeight: false,

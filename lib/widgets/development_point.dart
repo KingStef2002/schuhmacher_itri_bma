@@ -43,8 +43,8 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      upperBound: 125,
-      lowerBound: 95,
+      upperBound: 130,
+      lowerBound: 110,
       duration: const Duration(milliseconds: 250),
     );
   }
@@ -98,7 +98,7 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
                               width: _controller.value,
                               color: const Color(0xFF9E9E9E),
                               borderRadius: 10,
-                              child: Text(widget.technology.longDescription),
+                              child: Text(widget.technology.description),
                             );
                           },
                         ),
@@ -108,10 +108,9 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
                         child: Align(
                           alignment: Alignment.bottomCenter,
                           child: Text(
-                            widget.technology.shortDescription,
+                            widget.technology.name,
                             textAlign: TextAlign.center,
                             maxLines: 3,
-                            softWrap: true,
                             overflow: TextOverflow.visible,
                           ),
                         ),
