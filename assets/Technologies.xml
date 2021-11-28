@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Technologies>
 	<Technology>
-		<category>none</category>
+		<category>development</category>
 		<name>Verwendung von Dampf</name>
 		<shortDescription>Verwendung von Dampf und Entwicklung einfacher Reaktionsturbine</shortDescription>
 		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
@@ -12,7 +12,7 @@ In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at
 		<sources>https://de.wikipedia.org/wiki/Heronsball</sources>
 	</Technology>
 	<Technology>
-		<category>none</category>
+		<category>development</category>
 		<name>Alchemistische Forschung</name>
 		<shortDescription>Erste nachweisbare alchemistische Forschung</shortDescription>
 		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
@@ -24,7 +24,7 @@ In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at
 https://de.wikipedia.org/wiki/Alchemie</sources>
 	</Technology>
 	<Technology>
-		<category>none</category>
+		<category>information</category>
 		<name>Bucheinbands</name>
 		<shortDescription>Erfindung des Bucheinbands</shortDescription>
 		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
@@ -35,7 +35,7 @@ In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at
 		<sources>https://www.buecher-wiki.de/index.php/BuecherWiki/GeschichteDerBuchbindung</sources>
 	</Technology>
 	<Technology>
-		<category>none</category>
+		<category>information</category>
 		<name>Gänsefeder als Schreibgerät</name>
 		<shortDescription>Gänsefeder als Schreibgerät</shortDescription>
 		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
