@@ -1,10 +1,10 @@
 import 'package:flutter/services.dart';
-import 'package:schuhmacher_itri_bma/util/date_parser.dart';
 
 import 'package:xml/xml.dart';
 
 import 'package:schuhmacher_itri_bma/util/technology.dart';
 import 'package:schuhmacher_itri_bma/util/enums.dart';
+import 'package:schuhmacher_itri_bma/util/date_parser.dart';
 
 /// A helper class that parses the data from the asset XML file into
 /// usable [Technology] objects, using [parseXml] and storing them in [_techList].
