@@ -46,11 +46,13 @@ const Map<TechCategory, TechCategoryData> categoryData = {
   TechCategory.entertainment: TechCategoryData(
     icon: Icons.videogame_asset,
     name: 'Unterhaltung',
-    description: '(Zunächst) hauptsächlich der Unterhaltung dienend',
+    description:
+        '(Zunächst) hauptsächlich der Unterhaltung dienende Entwicklungen',
   ),
   TechCategory.none: TechCategoryData(
     icon: Icons.circle,
     name: 'Unkategorisiert',
-    description: 'Fehler oder nicht einteilbare Aussenseiter',
+    description:
+        'Nicht einteilbare Aussenseiter, die in keine der etabilierten Kategorien passen',
   ),
 };

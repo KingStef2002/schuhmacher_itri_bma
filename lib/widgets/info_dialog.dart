@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:linkable/linkable.dart';
+import 'package:schuhmacher_itri_bma/util/constants.dart';
 
 import 'package:schuhmacher_itri_bma/util/technology.dart';
 import 'package:schuhmacher_itri_bma/widgets/development_point.dart';
@@ -53,7 +54,7 @@ class InfoDialog extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      technology.getDate(long: true),
+                      'Zeit: ${technology.getDate(long: true)}',
                     ),
                     const SizedBox(height: 20),
                     Text(
@@ -61,10 +62,25 @@ class InfoDialog extends StatelessWidget {
                       softWrap: true,
                     ),
                     const SizedBox(height: 20),
+                    Text(
+                      'Kategorie: ${categoryData[technology.category]!.name}',
+                    ),
+                    Row(
+                      children: [
+                        const SizedBox(width: 5),
+                        SizedBox(
+                          width: MediaQuery.of(context).size.width * 0.4 - 5,
+                          child: Text(
+                            '"${categoryData[technology.category]!.description}"',
+                            softWrap: true,
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 20),
                     const Text('Quellen:'),
                     Linkable(
                       text: technology.sources,
-                      //softWrap: true,
                     ),
                   ],
                 ),

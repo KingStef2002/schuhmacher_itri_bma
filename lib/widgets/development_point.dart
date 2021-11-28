@@ -149,7 +149,7 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
                 animation: _controller,
                 child: Center(
                   child: Icon(
-                    categoryData[widget.technology.category]?.icon,
+                    categoryData[widget.technology.category]!.icon,
                   ),
                 ),
               ),
