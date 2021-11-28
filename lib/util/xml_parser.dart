@@ -63,9 +63,9 @@ abstract class XmlParser {
           _techList.add(
             Technology(
               category: category,
-              shortDescription: record.getElement('name')?.innerText ??
+              name: record.getElement('name')?.innerText ??
                   record.getElement('shortDescription')!.innerText,
-              longDescription: record.getElement('description')!.innerText,
+              description: record.getElement('description')!.innerText,
               // TODO: Set fallback default image
               imageFileName: record.getElement('imagePath')?.innerText ?? '',
               date: DateParser.parseDate(

@@ -8,13 +8,13 @@ class Technology {
   /// The category under which the development falls.
   final TechCategory category;
 
-  /// A short description, used in the timeline overview and as
+  /// A short name, used in the timeline overview and as
   /// title for the [InfoDialog].
-  final String shortDescription;
+  final String name;
 
-  /// A longer description, used as the main body of the [InfoDialog]
+  /// A proper description, used as the main body of the [InfoDialog]
   /// and also shown in the info bubble shown when selecting a [DevelopmentPoint].
-  final String longDescription;
+  final String description;
 
   /// The name of the asset image used to illustrate the development,
   /// shown in the [InfoDialog].
@@ -45,8 +45,8 @@ class Technology {
   /// technological development.
   const Technology({
     required this.category,
-    required this.shortDescription,
-    required this.longDescription,
+    required this.name,
+    required this.description,
     required this.imageFileName,
     required this.date,
     required this.datePrecision,
@@ -75,7 +75,7 @@ class Technology {
         return '${date.day}. ${date.month}. ${date.year}';
       default:
         throw ArgumentError(
-            'The technology "$shortDescription" does not have a valid datePresicion.');
+            'The technology "$name" does not have a valid datePresicion.');
     }
   }
 }
