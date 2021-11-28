@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:linkable/linkable.dart';
+
 import 'package:schuhmacher_itri_bma/util/technology.dart';
 import 'package:schuhmacher_itri_bma/widgets/development_point.dart';
 
@@ -45,23 +47,27 @@ class InfoDialog extends StatelessWidget {
               const SizedBox(
                 width: 10,
               ),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text(
-                    technology.getDate(long: true),
-                  ),
-                  const SizedBox(height: 20),
-                  SizedBox(
-                    width: MediaQuery.of(context).size.width * 0.4,
-                    child: Text(
+              SizedBox(
+                width: MediaQuery.of(context).size.width * 0.4,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      technology.getDate(long: true),
+                    ),
+                    const SizedBox(height: 20),
+                    Text(
                       technology.longDescription,
                       softWrap: true,
                     ),
-                  ),
-                  const SizedBox(height: 20),
-                  Text(technology.sources),
-                ],
+                    const SizedBox(height: 20),
+                    const Text('Quellen:'),
+                    Linkable(
+                      text: technology.sources,
+                      //softWrap: true,
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
