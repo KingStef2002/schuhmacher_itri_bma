@@ -12,3 +12,5 @@ void main() {
     runApp(const App());
   });
 }
+
+// TODO: Set an app icon
