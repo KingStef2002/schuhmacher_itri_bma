@@ -12,9 +12,12 @@ class Technology {
   /// title for the [InfoDialog].
   final String name;
 
-  /// A proper description, used as the main body of the [InfoDialog]
-  /// and also shown in the info bubble shown when selecting a [DevelopmentPoint].
-  final String description;
+  /// A shorter description, used for the info bubble when selecting a
+  /// [DevelopmentPoint] the timeline overview.
+  final String shortDescription;
+
+  /// A proper description, used as the main body of the [InfoDialog].
+  final String longDescription;
 
   /// The name of the asset image used to illustrate the development,
   /// shown in the [InfoDialog].
@@ -46,7 +49,8 @@ class Technology {
   const Technology({
     required this.category,
     required this.name,
-    required this.description,
+    required this.shortDescription,
+    required this.longDescription,
     required this.imageFileName,
     required this.date,
     required this.datePrecision,

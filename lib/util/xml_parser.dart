@@ -78,7 +78,8 @@ abstract class XmlParser {
               longDescription: longDescription.toLowerCase() == 'test'
                   ? shortDescription
                   : longDescription,
-              imageFileName: record.getElement('imagePath')?.innerText ?? 'Platzhalter.png',
+              imageFileName: record.getElement('imagePath')?.innerText ??
+                  'Platzhalter.png',
               date: DateParser.parseDate(
                 record.getElement('date')?.innerText ?? '',
               ),
