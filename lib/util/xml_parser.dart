@@ -56,18 +56,29 @@ abstract class XmlParser {
             break;
           default:
             category = TechCategory.none;
-            print('Default category case, likely an issue');
+            assert(() {
+              print('Default category case, likely an issue');
+              return true;
+            }());
         }
 
         try {
+          final String shortDescription =
+              record.getElement('shortDescription')!.innerText;
+          final String longDescription =
+              record.getElement('description')!.innerText;
+
           _techList.add(
             Technology(
               category: category,
-              name: record.getElement('name')?.innerText ??
-                  record.getElement('shortDescription')!.innerText,
-              description: record.getElement('description')!.innerText,
-              // TODO: Set fallback default image
-              imageFileName: record.getElement('imagePath')?.innerText ?? '',
+              name: record.getElement('name')!.innerText,
+              shortDescription: shortDescription,
+              // If the description is the placeholder text,
+              // use the short description instead.
+              longDescription: longDescription.toLowerCase() == 'test'
+                  ? shortDescription
+                  : longDescription,
+              imageFileName: record.getElement('imagePath')?.innerText ?? 'Platzhalter.png',
               date: DateParser.parseDate(
                 record.getElement('date')?.innerText ?? '',
               ),
@@ -78,9 +89,12 @@ abstract class XmlParser {
             ),
           );
         } catch (e) {
-          print(
-            'XML Parser exception for technology "${record.getElement('name')?.innerText ?? record.getElement('shortDescription')?.innerText ?? '[unknown name]'}": $e',
-          );
+          assert(() {
+            print(
+              'XML Parser exception for technology "${record.getElement('name')?.innerText ?? '[unknown name]'}": $e',
+            );
+            return true;
+          }());
         }
       }
     }
