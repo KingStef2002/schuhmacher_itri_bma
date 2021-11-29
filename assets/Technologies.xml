@@ -4,131 +4,178 @@
 		<category>development</category>
 		<name>Verwendung von Dampf</name>
 		<shortDescription>Verwendung von Dampf und Entwicklung einfacher Reaktionsturbine</shortDescription>
-		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
+		<description>Der Nutzen von Dampf wurde schon früh durch Heron von Alexandria erkannt. Er hat mit dem Heronsball eine Maschine beschrieben, welche die Expansionskraft und das Rückstoss Prinzip nutzt. Leider hatte der Heronsball zu der Zeit keinen praktischen Nutzen, weswegen es nur als Kuriosum betrachtet wurde.
+Aufbau
+Der Heronsball besteht aus drei Teilen:
+-	Der Unterste Teil: Eine Flamme
+-	Mittlere Teil: Ein dichter Wasserkessel
+-	Oberer Teil: Eine Kugel mit zwei Austrittsventilen
+Die Kugel ist durch Zwei drehbar gelagerten Halterungen an den Mittleren Teil angemacht. Mithilfe einer der beiden Halterungen ist der Wasserkessel mit der Kugel direkt verbunden.
+Ablauf
+Die Flamme erhitzt den Wasserkessel. Woraufhin Wasserdampf entsteht, welcher nach oben durch die Verbindung in die Kugel steigt. Schlussendlich tretet der Dampf durch die Ventile aus der Kugel aus. Dies verursacht dann einen Rückstoss, weswegen sich die Kugel in Drehung versetzt.
+
+</description>
 		<imagePath>Heronsball_Animation.gif</imagePath>
+		<imageLink>https://de.wikipedia.org/wiki/Heronsball#/media/Datei:Aeolipile_Engine_Animation_with_steam.gif</imageLink>
 		<date>01.01.0100</date>
 		<datePrecision>0</datePrecision>
-		<sources>https://de.wikipedia.org/wiki/Heronsball</sources>
+		<sources>https://de.wikipedia.org/wiki/Heronsball
+https://de.wikipedia.org/wiki/Heron_von_Alexandria</sources>
 	</Technology>
 	<Technology>
 		<category>development</category>
 		<name>Alchemistische Forschung</name>
 		<shortDescription>Erste nachweisbare alchemistische Forschung</shortDescription>
-		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
+		<description>Die erste alchemistische Forschung, die nachgewiesen werden konnte, entstammt von Zosimos aus Panopolis. Der in Oberägypten geborene Mann lebte im späten 3. Jahrhundert. Er hat 28 Bücher verfasst und führte darin den Begriff Alchemie ein. In all diesen Büchern geht es um Alchemie, jedoch konnte nur eines davon bis heute überleben. In seinem Leben hat er die Destillation verbessert sowie an verschiedenen metallurgischen Aufgabenstellungen gearbeitet.
+Früheres Auftreten
+Es gab bereits davor Alchemisten, wie Maria die Jüdin, die als Begründerin der Alchemie gilt. Jedoch ist über Sie nicht vieles bekannt. Sie hat zwischen dem 1. und 3. Jahrhundert gelebt.
+Alchemie
+Die Alchemie oder auch Alchimie ist die Lehre der Stoffe und Reaktionen. Das höchste Ziel war die Verwandlung von unedlen Metallen zu Gold. Dieser Prozess nannte man auch Transmutation. Ein wichtiger Bestandteil, um dies umzusetzen war der Stein der Weisen. Dieser sollte als Katalysator dienen.</description>
 		<imagePath>Distillation_by_Retort.png</imagePath>
+		<imageLink>https://de.wikipedia.org/wiki/Alchemie#/media/Datei:Distillation_by_Retort.png</imageLink>
 		<date>01.01.0300</date>
-		<datePrecision>1</datePrecision>
+		<datePrecision>0</datePrecision>
 		<sources>https://www.seilnacht.com/chemiker/alchemie.html
-https://de.wikipedia.org/wiki/Alchemie</sources>
+https://de.wikipedia.org/wiki/Alchemie
+https://de.wikipedia.org/wiki/Zosimos_aus_Panopolis
+https://www.chemie.de/lexikon/Zosimos_aus_Panopolis.html</sources>
 	</Technology>
 	<Technology>
 		<category>information</category>
-		<name>Bucheinbands</name>
+		<name>Bucheinband</name>
 		<shortDescription>Erfindung des Bucheinbands</shortDescription>
-		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
+		<description>Mit dem Auftauchen des Kodex, kam auch der Bucheinband. Die anfängliche Kodex-Form wurde schon im 1. Jahrhundert verwendet, jedoch wurde diese nur durch Schnüre zusammengehalten. Erst später wurden diese dann gebunden. 
+Funde
+Die ältesten heute noch erhaltenen Kodizes mit Einband stammen aus dem 4. Jahrhundert. Diese wurden in Ägypten gefunden. Der Einband dieser Kodizes wurde mit Papyruskartonage und Ziegen- oder Schafsleder hergestellt.
+Kodex
+Der Kodex ist der direkte Vorgänger des heutigen Buches. Er besteht aus mehreren Pergamentlagen, die mit einem festen Einband gebunden sind. Unterschiede zum heutigen Buch sind der Bucheinband, der mit massivem Holz und Leder bezogen ist und die aus Pergament bestehenden Seiten, welche anfälliger auf Feuchtigkeit waren.</description>
 		<imagePath>Old_book_bindings.jpg</imagePath>
+		<imageLink>https://commons.wikimedia.org/wiki/Category:Quills?uselang=de#/media/File:Quill_(PSF)_vector.svg</imageLink>
 		<date>01.01.0400</date>
-		<datePrecision>1</datePrecision>
-		<sources>https://www.buecher-wiki.de/index.php/BuecherWiki/GeschichteDerBuchbindung</sources>
+		<datePrecision>0</datePrecision>
+		<sources>https://de.wikipedia.org/wiki/Bucheinband#Geschichte_der_europ%C3%A4ischen_Einbandgestaltung
+https://de.wikipedia.org/wiki/Kodex#Einband
+https://de.wikipedia.org/wiki/Buch#Papyrusrolle_und_Kodex
+https://www.domi-exclusiv.com/faq/wie-unterscheidet-sich-der-einband-mittelalterlicher-kodizes-von-modernen-buechern</sources>
 	</Technology>
 	<Technology>
 		<category>information</category>
 		<name>Gänsefeder als Schreibgerät</name>
 		<shortDescription>Gänsefeder als Schreibgerät</shortDescription>
-		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
+		<description>Der Federkiel oder auch einfach Gänsefeder, da meistens Federn von Gänsen verwendet wurde, ist der Nachfolger des Schilfrohrs, der bis dahin weitverbreitet war. Bis zum 18. Jahrhundert wurde dann der Federkiel als das Präferierte Schreibgerät benutzt.
+Herstellung
+Für die Herstellung des Schreibgeräts brauchte man die Feder eines Tiers (z.B. Gans). Dabei wurden die äussersten vorgezogen und man musste darauf achten, ob es für einen Links- oder Rechtshändler sein soll. Das war wichtig da der Federkiel eine gewisse Krümmung aufwies. Die Befiederung entfernte man danach meist.
+Als nächstes musste die Feder gehärtet werden, damit diese schlussendlich zugeschnitten werden konnte. Die bekannteste Methode, um es zu härten war die Federkiele in Wasser einzutauchen, bis sie vollkommen weiss wurde. Danach die Kiele in heissen Sand stecken und warten bis sie transparent schien.</description>
 		<imagePath>Quill.png</imagePath>
+		<imageLink>https://commons.wikimedia.org/wiki/Category:Quills?uselang=de#/media/File:Quill_(PSF)_vector.svg</imageLink>
 		<date>01.01.0400</date>
 		<datePrecision>0</datePrecision>
-		<sources>
-https://de.wikipedia.org/wiki/Federkiel</sources>
+		<sources>https://de.wikipedia.org/wiki/Federkiel</sources>
 	</Technology>
 	<Technology>
-		<category>none</category>
+		<category>industry</category>
 		<name>Porzellan</name>
 		<shortDescription>Erfindung des Porzellans</shortDescription>
-		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
-		<imagePath>Images\Porzellan.jpg</imagePath>
+		<description>Porzellan ist ein von China stammendes Erzeugnis und eine Unterkategorie der Keramik. Es wird auch für seinen hohen Wert als weisses Gold bezeichnet. Gleichwohl schon vorher das sogenannte Proto-Porzellan hergestellt wurde, fand die bedeutendste Entwicklung erst zu Beginn der Tang-Zeit statt.
+In dieser Entwicklungsphase hat man verschiedene Zusammensetzungen untersucht. Es wurde versucht die Anteile von Kaolin, Quarz und Feldspat, welche die Bestandteile von Porzellan sind, optimal zu setzen. Als dann die verbesserten Brennöfen erschienen, konnte man zusätzlich von den höheren Temperaturen profitieren. Diese liessen das Porzellan härter, dichter und durscheinender wirken.
+Verbreitung
+Lange war Porzellan gänzlich nur in China bekannt, da sie die Produktion geheim hielten. Es dauerte mehrere Jahrhunderte, bis Porzellan ausserhalb China ankam.
+Tang-Zeit
+Die Tang-Zeit war als die Tang-Dynastie an der Macht war. Welche zwischen 617 und 907 datiert wird.</description>
+		<imagePath>Porzellan.jpg</imagePath>
+		<imageLink>https://commons.wikimedia.org/wiki/File:H%C3%B6chster_Porzellan.JPG</imageLink>
 		<date>01.01.0620</date>
 		<datePrecision>0</datePrecision>
-		<sources>https://de.wikipedia.org/wiki/Porzellan</sources>
+		<sources>https://de.wikipedia.org/wiki/Porzellan
+https://www.planet-wissen.de/technik/werkstoffe/porzellan/index.html#China</sources>
 	</Technology>
 	<Technology>
-		<category>none</category>
+		<category>information</category>
 		<name>Holztafeldruck</name>
 		<shortDescription>Holztafeldruck, auch Blockdruck genannt, in Ostasien</shortDescription>
-		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
-		<imagePath>Images\Holztafeldruck_Jingangjing.jpg</imagePath>
+		<description>Der Holztafeldruck oder auch Blockdruck war der Vorgänger des Buchdrucks. Er wurde in China erfunden. Im Gegensatz zum Buchdruck wurde hier Bild und Text gleichzeitig mit einer Holzplatte aufgedruckt.
+Der älteste Blockdruck, welcher gefunden wurde, entstammt aus dem  7. Jahrhundert.</description>
+		<imagePath>Holztafeldruck_Jingangjing.jpg</imagePath>
+		<imageLink>https://de.wikipedia.org/wiki/Blockdruck#/media/Datei:Jingangjing.jpg</imageLink>
 		<date>01.01.0700</date>
 		<datePrecision>0</datePrecision>
 		<sources>https://de.wikipedia.org/wiki/Blockdruck</sources>
 	</Technology>
 	<Technology>
-		<category>none</category>
-		<name>Hochöfen</name>
+		<category>industry</category>
+		<name>Hochöfen (Rennofen)</name>
 		<shortDescription>Erste Verwendung von Hochöfen in Katalonien</shortDescription>
-		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
-		<imagePath>Images\Rennwerk.jpg</imagePath>
+		<description>Ein Rennofen besser gesagt ein Tatara-Ofen ist eine Anlage, welche zur Eisengewinnung eingesetzt wird. Es wurde in Japan zum ersten Mal verwendet.</description>
+		<imagePath>Japanischer_Tatara-Schmelzofen.jpg</imagePath>
+		<imageLink>https://de.wikipedia.org/wiki/Hochofen#/media/Datei:Japanischer_Tatara-Schmelzofen_-_Zeichnung_von_Adolf_Ledebur_(1901).jpg</imageLink>
 		<date>01.01.0700</date>
 		<datePrecision>0</datePrecision>
 		<sources>https://de.wikipedia.org/wiki/Hochofen</sources>
 	</Technology>
 	<Technology>
-		<category>none</category>
+		<category>entertainment</category>
 		<name>Fadentelefon</name>
 		<shortDescription>Das Fadentelefon oder auch Dosentelefon wurde von dem chinesischen Philosophen Kung-Foo Whing im Jahre 968 erfunden. </shortDescription>
-		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
-		<imagePath>Images\Dosentelefon.jpg</imagePath>
+		<description>Erfunden wurde das Fadentelefon durch den chinesischen Philosophen Kung-Foo Whing. Heutzutage findet es seinen Nutzen bei Experimenten für kleine Kindern. Dennoch war es ein wichtiger Meilenstein.
+Aufbau
+Der Aufbau der Kung-Foo verwendete war sehr simpel. Zwei Zylinder aus Bambusrohr wurden durch einen angespannten Faden verbunden.
+Nutzen
+Nun konnte von einem Zylinder etwas eingesprochen werden und im anderen hörte man dies.</description>
+		<imagePath>Dosentelefon.jpg</imagePath>
+		<imageLink>https://www.flickr.com/photos/foto_db/15817154324</imageLink>
 		<date>01.01.0968</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 		<sources>https://www.smart-pr.de/de/news/4023-die-veraenderung-der-kommunikation-vom-rauchzeichen-zu-tiktok/</sources>
 	</Technology>
 	<Technology>
-		<category>none</category>
+		<category>development</category>
 		<name>Prinzip der Lochkamera</name>
 		<shortDescription>Das Prinzip der Lochkamera wurde von Ibn al-Haitham beschrieben. </shortDescription>
-		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
-		<imagePath>Images\Lochkamera_prinzip.jpg</imagePath>
+		<description>Das Prinzip der Lochkamera wurde von Ibn al-Haitham erkannt. Der Begriff Camera Obscura steht auch für Lochkamera, jedoch ist die Rede einer Lochkamera, wenn die Kiste die Grösse einer Schachtel hat.
+Aufbau
+Die Lochkamera besteht einzig und allein aus einer lichtundurchlässigen Kiste, welche ein Loch kleines Loch besitzt.
+Prinzip
+Durch das Loch kommt eine beleuchtete Szene. Diese wird auf der gegenüberliegenden Wand abgebildet. Das spannende and diesem Prinzip liegt nun daran, dass die Szene seitenverkehrt und auf dem Kopf stehend dargestellt wird.</description>
+		<imagePath>Lochkamera_prinzip.jpg</imagePath>
+		<imageLink>https://de.wikipedia.org/wiki/Lochkamera#/media/Datei:Lochkamera_prinzip.jpg</imageLink>
 		<date>01.01.0980</date>
 		<datePrecision>0</datePrecision>
 		<sources>https://de.wikipedia.org/wiki/Camera_obscura</sources>
 	</Technology>
 	<Technology>
-		<category>none</category>
+		<category>entertainment</category>
 		<name>Schwarzpulver</name>
 		<shortDescription>Erste Anwendung von Schwarzpulver und Raketen in China</shortDescription>
-		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
-In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla. Donec blandit feugiat ligula.</description>
-		<imagePath>Images\Schwarzpulver.jpg</imagePath>
+		<description>Schwarzpulver wurde in China erfunden. Die Ermittlung der ersten Anwendung basiert auf ein Buch über Militärtechniken von 1044, bei dem man aber nicht ganz sicher ist, ob alles zur gleichen Zeit geschrieben wurde. Hauptsächlich wurde der Schwarzpulver zu Beginn für Feuerwerk verwendet. Schwarzpulver hat jedoch eine grössere Rolle in der Geschichte, da damit auch explosive Waffen hergestellt wurden.</description>
+		<imagePath>Schwarzpulver.jpg</imagePath>
+		<imageLink>https://de.wikipedia.org/wiki/Schwarzpulver#/media/Datei:Spk-RZ.jpg</imageLink>
 		<date>01.01.1000</date>
 		<datePrecision>0</datePrecision>
 		<sources>https://de.wikipedia.org/wiki/Schwarzpulver
 https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
-		<category>none</category>
+		<category>industry</category>
+		<name>Wasserrads</name>
 		<shortDescription>Erste Ausbreitung des Wasserrads in Europa, später des Windrads</shortDescription>
 		<description>test</description>
-		<date>01.01.1000</date>
+		<imagePath>Wasserrad.jpg</imagePath>
+		<imageLink>https://de.wikipedia.org/wiki/Wasserrad#/media/Datei:Noe_wasserrad.jpg</imageLink>
+		<date>01.01.1100</date>
 		<datePrecision>0</datePrecision>
+		<sources>https://de.wikipedia.org/wiki/Wasserrad</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Schwefelsäure</name>
 		<shortDescription>Entdeckung der Schwefelsäure</shortDescription>
 		<description>test</description>
 		<date>01.01.1200</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Silberstift</name>
 		<shortDescription>Der Silberstift als Vorläufer des Bleistifts kommt in Gebrauch</shortDescription>
 		<description>test</description>
 		<date>01.01.1200</date>
@@ -136,6 +183,7 @@ https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Brille</name>
 		<shortDescription>Erfindung der Brille</shortDescription>
 		<description>test</description>
 		<date>01.01.1280</date>
@@ -143,6 +191,7 @@ https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Buchdrucks</name>
 		<shortDescription>Erfindung des Buchdrucks (Johann Gutenberg)</shortDescription>
 		<description>test</description>
 		<date>01.01.1450</date>
@@ -150,6 +199,7 @@ https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Kutschen</name>
 		<shortDescription>Erstes Auftreten von Kutschen als Beförderungsmittel</shortDescription>
 		<description>test</description>
 		<date>01.01.1450</date>
@@ -157,12 +207,15 @@ https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Bleistift</name>
 		<shortDescription>Erste Graphitstifte (Bleistift) (Großbritannien)</shortDescription>
 		<description>test</description>
+		<date>01.01.1500</date>
 		<datePrecision>0</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Spinnrad</name>
 		<shortDescription>Spinnrad mit Schwungrad</shortDescription>
 		<description>test</description>
 		<date>01.01.1452</date>
@@ -170,6 +223,7 @@ https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Mehrläufiges Geschütz</name>
 		<shortDescription>Mehrläufiges Geschütz (Leonardo da Vinci)</shortDescription>
 		<description>test</description>
 		<date>01.01.1452</date>
@@ -177,40 +231,47 @@ https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Taschenuhr</name>
 		<shortDescription>Erste Taschenuhr</shortDescription>
 		<description>test</description>
 		<date>01.01.1510</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Schienenbahnen </name>
 		<shortDescription>Erstmals belegte Schienenbahnen in Bergwerken</shortDescription>
 		<description>test</description>
 		<date>01.01.1519</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Bergbau und Hüttenwesen (Buch)</name>
 		<shortDescription>Handbuch über Bergbau und Hüttenwesen (Georgius Agricola)</shortDescription>
 		<description>test</description>
 		<date>01.01.1556</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Maschinentechnik (Buch)</name>
 		<shortDescription>Das erste maschinentechnische Buch der Neuzeit (Jacques Besson)</shortDescription>
 		<description>test</description>
 		<date>01.01.1569</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Lesemaschine</name>
 		<shortDescription>Erste Lesemaschine (Leserad) (Agostino Ramelli)</shortDescription>
 		<description>test</description>
-		<datePrecision>0</datePrecision>
+		<date>01.01.1588</date>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Mikroskop</name>
 		<shortDescription>Das Mikroskop wird entwickelt (vermutlich Zacharias Janssen und Vater)</shortDescription>
 		<description>test</description>
 		<date>01.01.1590</date>
@@ -218,6 +279,7 @@ https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Rechenstäbchen</name>
 		<shortDescription>Rechenstäbchen als Vorläufer des Rechenschiebers (John Napier)</shortDescription>
 		<description>test</description>
 		<date>01.01.1600</date>
@@ -225,20 +287,23 @@ https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Optische Röhre</name>
 		<shortDescription>Entwicklung der Optische Röhre, Vorläufer von Galileis Fernrohr (Hans Lipperhey)</shortDescription>
 		<description>test</description>
 		<date>01.01.1608</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Astronomische Fernrohr</name>
 		<shortDescription>Das astronomische Fernrohr wird gebaut und angewendet (Galileo Galilei)</shortDescription>
 		<description>test</description>
 		<date>01.01.1609</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Rechenschieber</name>
 		<shortDescription>Der Rechenschieber wird erfunden (Edmund Gunter und William Oughtred)</shortDescription>
 		<description>test</description>
 		<date>01.01.1620</date>
@@ -246,13 +311,15 @@ https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Rechenmaschine</name>
 		<shortDescription>Erfindung der ersten Rechenmaschine mit Zahlrädern mit 10 Zähnen und mit Zehnerübertragung durch Zahnräder zum Zusammenzählen der Teilprodukte (Wilhelm Schickard)[8]</shortDescription>
 		<description>test</description>
 		<date>01.01.1623</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Luftdruck und Vakuum</name>
 		<shortDescription>Luftdruck und Vakuum werden entdeckt und angewendet (Evangelista Torricelli, Otto von Guericke)</shortDescription>
 		<description>test</description>
 		<date>01.01.1638</date>
@@ -260,27 +327,31 @@ https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name> Pendeluhr</name>
 		<shortDescription>Erfindung der Pendeluhr (Galileo Galilei)</shortDescription>
 		<description>test</description>
 		<date>01.01.1640</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Addiermaschine</name>
 		<shortDescription>Fertigstellung der ersten gebrauchsfähigen Addiermaschine (Blaise Pascal)[8]</shortDescription>
 		<description>test</description>
 		<date>01.01.1645</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Schleiftechnik von Teleskoplinsen</name>
 		<shortDescription>Verbesserung der Schleiftechnik von Teleskoplinsen (Christiaan Huygens)</shortDescription>
 		<description>test</description>
 		<date>01.01.1655</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name> Fahrplanmäßiger Verkehr</name>
 		<shortDescription>Erster fahrplanmäßiger Verkehr von pferdebespannten (achtsitzigen) Omnibussen (Paris) → Carrosses à cinq sols</shortDescription>
 		<description>test</description>
 		<date>18.03.1662</date>
@@ -288,762 +359,866 @@ https://de.wikipedia.org/wiki/Rakete</sources>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Verbesserung des Mikroskops</name>
 		<shortDescription>Verbesserung des Mikroskops (Antoni van Leeuwenhoek)</shortDescription>
 		<description>test</description>
 		<date>01.01.1673</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Dualzahlsystem</name>
 		<shortDescription>Das Dualzahlsystem wird erstmals in Europa in De Progressione dyadica Pars I (vom 15.März 1679, Gottfried Wilhelm Leibniz) erwähnt</shortDescription>
 		<description>test</description>
 		<date>01.01.1679</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Grundgesetze der Mechanik</name>
 		<shortDescription>Darlegung der Grundgesetze der Mechanik (Sir Isaac Newton)</shortDescription>
 		<description>test</description>
 		<date>01.01.1687</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Spiegelteleskop</name>
 		<shortDescription>Erstes Spiegelteleskop (Sir Isaac Newton)</shortDescription>
 		<description>test</description>
 		<date>01.01.1688</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Atmosphärische Dampfmaschine</name>
 		<shortDescription>Entdeckung des Prinzips der atmosphärischen Dampfmaschine in Marburg a. d. Lahn (Denis Papin)</shortDescription>
 		<description>test</description>
 		<date>01.01.1690</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Wasserpumpe</name>
 		<shortDescription>Dampf und Vakuum als Antriebsenergie für eine Wasserpumpe (Thomas Savery)</shortDescription>
 		<description>test</description>
 		<date>01.01.1698</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Dampfschiff-Antrieb</name>
 		<shortDescription>Entdeckung des ersten Dampfschiffs-Antriebes in Kassel (Denis Papin)</shortDescription>
 		<description>test</description>
 		<date>01.01.1704</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Dampfmaschine</name>
 		<shortDescription>Erste verwendbare Dampfmaschine (Thomas Newcomen)</shortDescription>
 		<description>test</description>
 		<date>01.01.1712</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Maschine zum Schreiben</name>
 		<shortDescription>Erstes Patent auf eine Maschine zum Schreiben (Henry Mill)</shortDescription>
 		<description>test</description>
 		<date>01.01.1714</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name> Lichtempfindliche Silberverbindungen</name>
 		<shortDescription>Entdeckung von lichtempfindlichen Silberverbindungen, die später für die Fotografie wichtig werden (Johann Heinrich Schulze)</shortDescription>
 		<description>test</description>
 		<date>01.01.1727</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Kondensator-Prinzip</name>
 		<shortDescription>Mit der „Kleist'schen Flasche“ bzw. der „Leydener Flasche“ wird unabhängig voneinander von dem Domdechanten Ewald Jürgen Georg von Kleist in Cammin (Pommern) und ein Jahr später von dem Physiker Pieter van Musschenbroek in Leyden erstmals das Kondensator-Prinzip gefunden.</shortDescription>
 		<description>test</description>
 		<date>01.01.1745</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Blitzableiters</name>
 		<shortDescription>Erfindung des Blitzableiters (Benjamin Franklin)</shortDescription>
 		<description>test</description>
 		<date>01.01.1752</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Dampfwagen</name>
 		<shortDescription>Nicholas Cugnot baut einen selbstfahrenden „Dampfwagen“ und führt ihn 1769 in Paris vor.</shortDescription>
 		<description>test</description>
 		<date>01.01.1768</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Verbesserung der Dampfmaschine</name>
 		<shortDescription>Entscheidende Verbesserung von Newcomens Dampfmaschine durch James Watt</shortDescription>
 		<description>test</description>
 		<date>01.01.1769</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Radiergummi</name>
 		<shortDescription>Naturkautschuk als Radiergummi (Joseph Priestley)</shortDescription>
 		<description>test</description>
 		<date>01.01.1770</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Wiederverwertung von Altpapier</name>
 		<shortDescription>Wiederverwertung von Altpapier (Justus Claproth)</shortDescription>
 		<description>test</description>
 		<date>01.01.1774</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Rechenmaschine TODO:</name>
 		<shortDescription>Die erste Rechenmaschine, die in größerer Stückzahl gebaut wird (Philipp Matthäus Hahn)</shortDescription>
 		<description>test</description>
 		<date>01.01.1774</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Kopierpresse</name>
 		<shortDescription>Erfindung der Kopierpresse (Wattsche Presse) (James Watt)</shortDescription>
 		<description>test</description>
-		<datePrecision>0</datePrecision>
+		<date>01.01.1780</date>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Heißluftballon</name>
 		<shortDescription>Heißluftballon (Joseph Michel Montgolfier und Jacques Etienne Montgolfier)</shortDescription>
 		<description>test</description>
 		<date>01.01.1783</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Vollmechanisierte Webstuhl TODO: (Kraftstuhl)</name>
 		<shortDescription>Der vollmechanisierte Webstuhl Power Loom wird erfunden (Edmond Cartwright)</shortDescription>
 		<description>test</description>
 		<date>01.01.1785</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Seltenerdelement Yttrium</name>
 		<shortDescription>Der finnische Chemiker Johan Gadolin entdeckte das erste Seltenerdelement Yttrium[11]</shortDescription>
 		<description>test</description>
 		<date>01.01.1794</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Papiermaschine</name>
 		<shortDescription>Erfindung der Papiermaschine (Nicholas-Louis Robert)</shortDescription>
 		<description>test</description>
 		<date>01.01.1799</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Batterie</name>
 		<shortDescription>Erste Batterie durch Alessandro Volta, Vorläufer der Elektrolyse</shortDescription>
 		<description>test</description>
 		<date>01.01.1799</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Hochdruck-Dampfmaschine</name>
 		<shortDescription>Erste Hochdruck-Dampfmaschine von (Richard Trevithick)</shortDescription>
 		<description>test</description>
 		<date>01.01.1801</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Dampflokomotive</name>
 		<shortDescription>Erste Dampflokomotive in einem Bergwerk (Richard Trevithick)</shortDescription>
 		<description>test</description>
 		<date>01.01.1804</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Webstuhl mit Steuerungstechnik</name>
 		<shortDescription>Der vollmechanisierte Webstuhl wird mit Steuerungstechnik wesentlich weiterentwickelt (Joseph-Marie Jacquard)</shortDescription>
 		<description>test</description>
 		<date>01.01.1805</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Einschienenbahn</name>
 		<shortDescription>Erste Einschienenbahn (Henry Robinson Palmer)</shortDescription>
 		<description>test</description>
 		<date>01.01.1821</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Öffentliche Eisenbahn</name>
 		<shortDescription>Erste öffentliche Eisenbahn: die Stockton and Darlington Railway</shortDescription>
 		<description>test</description>
 		<date>01.01.1825</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Aluminium</name>
 		<shortDescription>Erstmalige Herstellung von Aluminium durch den dänischen Naturwissenschaftler Hans Christian Ørsted[12]</shortDescription>
 		<description>test</description>
 		<date>01.01.1825</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Streichholz</name>
 		<shortDescription>Erstes Streichholz (John Walker)</shortDescription>
 		<description>test</description>
 		<date>01.01.1826</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Elektromechanische Relais</name>
 		<shortDescription>Frühe elektromechanische Relais[13] (Joseph Henry)</shortDescription>
 		<description>test</description>
 		<date>01.01.1835</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Prinzips der Brennstoffzelle</name>
 		<shortDescription>Entdeckung des Prinzips der Brennstoffzelle (Christian Friedrich Schönbein)</shortDescription>
 		<description>test</description>
 		<date>01.01.1838</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Elektrischer Fahrzeugantrieb</name>
 		<shortDescription>Elektrischer Fahrzeugantrieb (Johann Philipp Wagner)</shortDescription>
 		<description>test</description>
 		<date>01.01.1840</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Holzschliffs</name>
 		<shortDescription>Erfindung des Holzschliffs für die Papierherstellung (Friedrich Gottlob Keller)</shortDescription>
 		<description>test</description>
 		<date>01.01.1843</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Sicherheitsstreichholzes</name>
 		<shortDescription>Erfindung des Sicherheitsstreichholzes (Gustaf Erik Pasch)</shortDescription>
 		<description>test</description>
 		<date>01.01.1844</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Wasserturbine</name>
 		<shortDescription>Francis-Wasserturbine</shortDescription>
 		<description>test</description>
 		<date>01.01.1849</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Luftschiff</name>
 		<shortDescription>Halbstarres Luftschiff</shortDescription>
 		<description>test</description>
 		<date>01.01.1852</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Differenzenmaschine</name>
 		<shortDescription>Georg und Edvard Scheutz erhalten auf der Pariser Weltausstellung eine Goldmedaille für ihre unter Mitwirkung von Charles Babbage entwickelte und gebaute Differenzenmaschine.[14]</shortDescription>
 		<description>test</description>
 		<date>01.01.1855</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Pasteurisation</name>
 		<shortDescription>Durch Pasteurisation werden milchhaltige Lebensmittel haltbarer (Louis Pasteur)</shortDescription>
 		<description>test</description>
 		<date>01.01.1860</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Fernsprecher</name>
 		<shortDescription>Erster funktionsfähiger Fernsprecher (Philipp Reis)</shortDescription>
 		<description>test</description>
 		<date>01.01.1861</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Dynamoelektrischen Prinzips</name>
 		<shortDescription>Entdeckung des dynamoelektrischen Prinzips (Werner von Siemens, Charles Wheatstone)</shortDescription>
 		<description>test</description>
 		<date>01.01.1866</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Transatlantikkabel</name>
 		<shortDescription>Erstes brauchbares Elektro-Kabel über den Atlantik</shortDescription>
 		<description>test</description>
 		<date>01.01.1866</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Druckluftbremse</name>
 		<shortDescription>Druckluftbremse (George Westinghouse)</shortDescription>
 		<description>test</description>
 		<date>01.01.1869</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name> Kühlschranks</name>
 		<shortDescription>Erfindung des Kühlschranks (Carl von Linde)</shortDescription>
 		<description>test</description>
 		<date>01.01.1876</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Telefon Patentantrag </name>
 		<shortDescription>Patentantrag für ein Telefon durch Alexander Graham Bell wenige Stunden vor Elisha Grays Antrag.</shortDescription>
 		<description>test</description>
 		<date>01.01.1876</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Phonographen</name>
 		<shortDescription>Erfindung des Phonographen (Thomas Alva Edison)</shortDescription>
 		<description>test</description>
 		<date>01.01.1877</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>TODO:</name>
 		<shortDescription>Émile Baudot, Charles Krum und Edward E. Kleinschmidt bauen einen Springschreiber mit einem binären 5-Impuls-Code und dem 5-Spur-Lochstreifen, der als Telegraphenalphabet CCITT Nr. 2 von Murray über viele Jahrzehnte in der Fernschreibtechnik weltweit einheitlich verwendet wurde.[15]</shortDescription>
 		<description>test</description>
 		<date>01.01.1878</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name> Elektrische Lokomotive</name>
 		<shortDescription>Erste praxistaugliche elektrische Lokomotive (Werner von Siemens in Berlin)</shortDescription>
 		<description>test</description>
 		<date>01.01.1879</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Glühlampe</name>
 		<shortDescription>Glühlampe von Edison</shortDescription>
 		<description>test</description>
 		<date>01.01.1879</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Transformator</name>
 		<shortDescription>Entwicklung des Transformators durch Lucien Gaulard (Frankreich) und John Dixon Gibbs (England), 1881 vorgestellt in London, 1882 erfolgloser Patentantrag. 1885 reichen Károly Zipernowsky, Miksa Déri und Ottó Titusz Bláthy in Budapest (Ungarn) einen erfolgreichen Patentantrag ein.</shortDescription>
 		<description>test</description>
 		<date>01.01.1880</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Trambahn</name>
 		<shortDescription>Erste elektrische Straßenbahn der Welt von Werner von Siemens in Lichterfelde bei Berlin.</shortDescription>
 		<description>test</description>
 		<date>01.01.1881</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Elektrische Kraftwerk </name>
 		<shortDescription>Erstes elektrisches Kraftwerk in New York durch Edison</shortDescription>
 		<description>test</description>
 		<date>01.01.1882</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Glühstrümpfen</name>
 		<shortDescription>Erste Verwendung von Metallen der Seltenen Erden in Form vom Glühstrümpfen (Österreicher Carl Auer von Welsbach)[16]</shortDescription>
 		<description>test</description>
 		<date>01.01.1884</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Wechselstrom</name>
 		<shortDescription>George Westinghouse führt die Energieversorgung mit hochgespanntem Wechselstrom ein</shortDescription>
 		<description>test</description>
 		<date>01.01.1885</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Elektrische Teleskop</name>
 		<shortDescription>Erfindung des Elektrischen Teleskops mit Nipkow-Scheibe (Paul Nipkow)</shortDescription>
 		<description>test</description>
 		<date>01.01.1883</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Automobils</name>
 		<shortDescription>Erfindung des Automobils (Carl Benz)</shortDescription>
 		<description>test</description>
 		<date>01.01.1886</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Schallplatte</name>
 		<shortDescription>Erfindung der Schallplatte (Emil Berliner)</shortDescription>
 		<description>test</description>
 		<date>01.01.1887</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Elektrische U-Bahn</name>
 		<shortDescription>Erste elektrische U-Bahn in London (City and South London Railway)</shortDescription>
 		<description>test</description>
 		<date>01.01.1890</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Sicherer Gleitflug</name>
 		<shortDescription>Erster sicherer, wiederholbarer Gleitflug (Otto Lilienthal)</shortDescription>
 		<description>test</description>
 		<date>01.01.1891</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Dreiphasenwechselstrom</name>
 		<shortDescription>Erste Fernübertragung elektrischer Energie als Drehstrom mit Hochspannung zwischen Lauffen am Neckar und Frankfurt am Main. Dieses Verfahren ist auch heute noch das gebräuchlichste Verfahren der elektrischen Energieübertragung.</shortDescription>
 		<description>test</description>
 		<date>01.01.1891</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
-		<shortDescription>Der „US Railroad Safety Appliance Act“ verfügt die Verwendung von Druckluftbremsen für alle Eisenbahnen in den USA[17]</shortDescription>
-		<description>test</description>
-		<date>01.01.1893</date>
-		<datePrecision>0</datePrecision>
-	</Technology>
-	<Technology>
-		<category>none</category>
+		<name>Röntgenstrahlung</name>
 		<shortDescription>Entdeckung der Röntgenstrahlung (Wilhelm Conrad Röntgen)</shortDescription>
 		<description>test</description>
 		<date>01.01.1895</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Radioaktivität</name>
 		<shortDescription>Entdeckung der Radioaktivität (Antoine Henri Becquerel)</shortDescription>
 		<description>test</description>
 		<date>01.01.1896</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Kathodenstrahlröhre</name>
 		<shortDescription>Erfindung der Kathodenstrahlröhre (Ferdinand Braun)</shortDescription>
 		<description>test</description>
 		<date>01.01.1897</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Erfolgreicher gesteuerter Motorflug</name>
 		<shortDescription>Erster erfolgreicher gesteuerter Motorflug mit einem Schwerer-als-Luft-Flugzeug (Orville Wright und Wilbur Wright)</shortDescription>
 		<description>test</description>
 		<date>01.01.1903</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Fließbandfertigung zur Automobilmontage</name>
 		<shortDescription>Die Fließbandfertigung zur Automobilmontage (Henry Ford)</shortDescription>
 		<description>test</description>
 		<date>01.01.1913</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Elektronenmikroskop</name>
 		<shortDescription>Erstes Elektronenmikroskop (Ernst Ruska)</shortDescription>
 		<description>test</description>
 		<date>01.01.1931</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Austrahlung reguläre Fernsehprogramm</name>
 		<shortDescription>Vom Berliner Funkturm wird das erste reguläre Fernsehprogramm ausgestrahlt</shortDescription>
 		<description>test</description>
 		<date>01.01.1935</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Uran-Kernspaltung</name>
 		<shortDescription>Erste induzierte Kernspaltung des Urans (Otto Hahn und Fritz Straßmann)</shortDescription>
 		<description>test</description>
 		<date>01.01.1938</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name> Herstellung von Titan</name>
 		<shortDescription>Patentierung der Herstellung von Titan vom Luxemburger Metallurgen William Justin Kroll in den USA[18]</shortDescription>
 		<description>test</description>
 		<date>01.01.1940</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Programmierbarer Digitalrechner</name>
 		<shortDescription>Fertigstellung des arbeitsfähigen Zuse Z3, dem ersten universell programmierbaren Digitalrechner (Konrad Zuse)[19]</shortDescription>
 		<description>test</description>
 		<date>01.01.1941</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Grossrakete</name>
 		<shortDescription>Start einer A4-Rakete, die mit 85 km Höhe in Bereiche vorstößt, welche mit Ballonen und Flugzeugen nicht erreichbar sind</shortDescription>
 		<description>test</description>
 		<date>01.01.1942</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Einsatz einer Atombombe</name>
 		<shortDescription>Erste Zündung einer Atombombe (Trinity-Test) (USA)</shortDescription>
 		<description>test</description>
-		<datePrecision>0</datePrecision>
+		<date>01.01.1945</date>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Universalrechner</name>
 		<shortDescription>Fertigstellung des ersten arbeitsfähigen Röhrenrechners ENIAC von John Presper Eckert &amp; John William Mauchly an der Moore School der University of Pennsylvania[20]</shortDescription>
 		<description>test</description>
 		<date>01.01.1946</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Transistor</name>
 		<shortDescription>Erfindung des Transistors (William B. Shockley, John Bardeen und Walter Brattain)</shortDescription>
 		<description>test</description>
 		<date>01.01.1948</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Heimcomputer</name>
 		<shortDescription>Erster erschwinglicher programmierbarer Heimcomputer (Simon)</shortDescription>
 		<description>test</description>
 		<date>01.01.1950</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Einsatz einer Wasserstoffbombe</name>
 		<shortDescription>Erste Zündung einer Wasserstoffbombe (USA)</shortDescription>
 		<description>test</description>
 		<date>01.01.1952</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Kernkraftwerk</name>
 		<shortDescription>Erstes Kernkraftwerk zur Stromerzeugung in Obninsk bei Moskau (Leistung 5 MW)</shortDescription>
 		<description>test</description>
 		<date>01.01.1954</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Erdsatellit</name>
 		<shortDescription>Start des ersten künstlichen Erdsatelliten Sputnik 1 (UdSSR)</shortDescription>
 		<description>test</description>
 		<date>01.01.1957</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Integrierte Schaltkreis</name>
 		<shortDescription>Entwicklung des ersten Integrierten Schaltkreis (Jack Kilby)</shortDescription>
 		<description>test</description>
 		<date>01.01.1958</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Flugkörper auf dem Mond</name>
 		<shortDescription>Erster Aufschlag eines Flugkörpers auf dem Mond mit der unbemannten Sonde Lunik 2 (UdSSR), dabei erstmals zahlreiche physikalische Messungen von Monddaten</shortDescription>
 		<description>test</description>
-		<date>01.01.1959</date>
-		<datePrecision>0</datePrecision>
+		<date>12.09.1959</date>
+		<datePrecision>3</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Foto der Mondrückseite</name>
 		<shortDescription>Erste Mondumrundung und erstes Foto der Mondrückseite mittels Lunik 3 (UdSSR)</shortDescription>
 		<description>test</description>
 		<date>01.01.1959</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Laser</name>
 		<shortDescription>Fertigstellung des ersten Lasers durch Theodore Maiman</shortDescription>
 		<description>test</description>
 		<date>01.01.1960</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Mensch im Weltall</name>
 		<shortDescription>Start und Flug des ersten Menschen in den Weltraum sowie erste Erdumrundung durch Juri Gagarin (UdSSR)</shortDescription>
 		<description>test</description>
 		<date>01.01.1961</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Digitalkamera</name>
 		<shortDescription>Erfindung der Digitalkamera durch David Paul Gregg an der Stanford University</shortDescription>
 		<description>test</description>
 		<date>01.01.1963</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Verbindung zwischen zwei Computern</name>
 		<shortDescription>Durch die Herstellung der ersten Netzwerkverbindung zwischen zwei Computern im Arpanet wird der Grundstein für das spätere Internet gelegt</shortDescription>
 		<description>test</description>
 		<date>01.01.1968</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Bemannte Mondlandung</name>
 		<shortDescription>Erste bemannte Mondlandung mit Apollo 11 (USA)</shortDescription>
 		<description>test</description>
 		<date>01.01.1969</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Gesteuerte Kernfusion</name>
 		<shortDescription>Erste gesteuerte Kernfusion mit Tokamak 3 in der Sowjetunion</shortDescription>
 		<description>test</description>
 		<date>01.01.1970</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Mikroprozessoren</name>
 		<shortDescription>Entwicklung der ersten Mikroprozessoren (Intel, Texas Instruments)</shortDescription>
 		<description>test</description>
 		<date>01.01.1970</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Taschenrechner</name>
 		<shortDescription>Erster Taschenrechner</shortDescription>
 		<description>test</description>
 		<date>01.01.1970</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name> E-Mail</name>
 		<shortDescription>Versendung der ersten E-Mail in Cambridge, USA durch Ray Tomlinson</shortDescription>
 		<description>test</description>
 		<date>01.01.1971</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Flugkörper ausserhalb des Sonnensystems</name>
 		<shortDescription>Start des ersten Raumflugkörpers, der das Sonnensystem verlässt (Pioneer 10)</shortDescription>
 		<description>test</description>
 		<date>01.01.1972</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>TCP Spezifikation</name>
 		<shortDescription>In RFC 675 wird das grundlegende Protokoll TCP für das Internet spezifiziert und dieser Begriff das erste Mal schriftlich erwähnt.</shortDescription>
 		<description>test</description>
 		<date>01.01.1974</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Programmierbare Taschenrechner</name>
 		<shortDescription>Der HP-65 wird als der erste programmierbare Taschenrechner von Hewlett-Packard gebaut.[21]</shortDescription>
 		<description>test</description>
 		<date>01.01.1974</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Personal Computer (PC)</name>
 		<shortDescription>Bau des ersten Personal Computer mit schreibmaschinenähnlicher Tastatur und Bildschirm (Steve Wozniak)[22]</shortDescription>
 		<description>test</description>
 		<date>01.01.1976</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Komplett zusammengebauter PC</name>
 		<shortDescription>Der erste komplett zusammengebaut erhältliche Mikrocomputer, der PET 2001, wird vorgestellt (Commodore International)</shortDescription>
 		<description>test</description>
-		<date>01.01.1977</date>
-		<datePrecision>0</datePrecision>
+		<date>01.04.1977</date>
+		<datePrecision>2</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Universeller Taschencomputer</name>
 		<shortDescription>Sharp stellt den PC-1210 als ersten universellen Taschencomputer vor (Programmiersprache BASIC)</shortDescription>
 		<description>test</description>
 		<date>01.01.1977</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Compact Disc (CD)</name>
 		<shortDescription>Die Compact Disc (CD) als digitaler Audiospeicher wird vorgestellt (Sony &amp; Philips)</shortDescription>
 		<description>test</description>
-		<datePrecision>0</datePrecision>
+		<date>01.01.1979</date>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>IBM-PC</name>
 		<shortDescription>Vorstellung des ersten IBM-PC 5150[23]</shortDescription>
 		<description>test</description>
 		<date>01.01.1981</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Organiser I (Vorläufer des PDA)</name>
 		<shortDescription>Mit dem Organiser I stellt Psion den ersten Vorläufer des PDA vor</shortDescription>
 		<description>test</description>
 		<date>01.01.1984</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Computerwurm</name>
 		<shortDescription>Das selbstduplizierende Programm worm verbreitet sich durch einen Programmierfehler schneller als erwartet und legt als erster Computerwurm das Internet mehrere Tage lahm[24]</shortDescription>
 		<description>test</description>
 		<date>01.01.1988</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Start des World Wide Webs (WWW)</name>
 		<shortDescription>Offizieller Start des World Wide Web durch einen Usenet-Beitrag von Tim Berners-Lee</shortDescription>
 		<description>test</description>
 		<date>01.01.1991</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Mobilfunknetz GSM (2G)</name>
 		<shortDescription>Inbetriebnahme der ersten weltweiten, digitalen Mobilfunknetze (Global System for Mobile Communications)</shortDescription>
 		<description>test</description>
 		<date>01.01.1991</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Personal Digital Assistant (PDA)</name>
 		<shortDescription>Mit der Vorstellung des Newton MessagePad 100, mit Stiftbedienung und Handschrifterkennung, definiert Apple den Begriff PDA</shortDescription>
 		<description>test</description>
 		<date>01.01.1993</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Globale Navigationssatellitensysteme</name>
 		<shortDescription>Offizielle Inbetriebnahmen der globalen Navigationssatellitensysteme GLONASS (praktisch ca. 15 Jahre nicht nutzbar) und GPS</shortDescription>
 		<description>test</description>
-		<date>01.01.1993</date>
+		<date>01.01.1994</date>
 		<datePrecision>0</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>DVD</name>
 		<shortDescription>Die DVD als digitaler Videospeicher wird vorgestellt</shortDescription>
 		<description>test</description>
 		<date>01.01.1995</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Mobilgerät</name>
 		<shortDescription>Mit dem Palm VII, dem ersten PDA mit eingebautem Mobilfunkmodem, beginnt das Zeitalter der Mobilen Endgeräte</shortDescription>
 		<description>test</description>
 		<date>01.01.1999</date>
-		<datePrecision>0</datePrecision>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Blu-ray Disc</name>
 		<shortDescription>Die Blu-ray Disc wird als verbessertes Datenspeichermedium vorgestellt</shortDescription>
 		<description>test</description>
-		<date>02.02.2002</date>
-		<datePrecision>0</datePrecision>
+		<date>01.01.2002</date>
+		<datePrecision>1</datePrecision>
 	</Technology>
 	<Technology>
 		<category>none</category>
+		<name>Tabletcomputer</name>
 		<shortDescription>Der erste kommerziell erfolgreiche Tabletcomputer wird von Apple vorgestellt</shortDescription>
 		<description>test</description>
-		<date>02.02.2010</date>
-		<datePrecision>0</datePrecision>
+		<date>01.01.2010</date>
+		<datePrecision>1</datePrecision>
 	</Technology>
 </Technologies>
