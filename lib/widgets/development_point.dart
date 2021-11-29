@@ -98,11 +98,11 @@ class _DevelopmentPointState extends State<DevelopmentPoint>
                               width: _controller.value,
                               color: const Color(0xFF9E9E9E),
                               borderRadius: 10,
-                              child: Text(widget.technology.description),
+                              child: Text(widget.technology.shortDescription),
                             );
                           },
                         ),
-                      ) // TODO: Fix animation
+                      )
                     : SizedBox(
                         width: _controller.lowerBound,
                         child: Align(

@@ -74,6 +74,7 @@ class _MainScreenState extends State<MainScreen> {
         ],
       ),
       body: SafeArea(
+        // TODO: Fix first time loading sometimes not centering
         // TODO: Ensure that the viewport always centers on the middle
         child: LoadingOverlay(
           opacity: 0.8,
